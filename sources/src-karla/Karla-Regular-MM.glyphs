@@ -7,9 +7,7 @@ DisplayStrings = (
 ",.;:!?#*///backslash/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf",
 "0123456789",
 "¥",
-"/yen.tf ×÷/greaterequal/lessequal",
-"0123456789",
-",.;:!?#*///backslash/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf"
+"/yen.tf ×÷/greaterequal/lessequal"
 );
 classes = (
 {
@@ -17615,24 +17613,6 @@ nodes = (
 "92 239 LINE",
 "92 208 LINE"
 );
-},
-{
-closed = 1;
-nodes = (
-"419 208 LINE",
-"419 239 LINE",
-"92 239 LINE",
-"92 208 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"419 117 LINE",
-"419 148 LINE",
-"92 148 LINE",
-"92 117 LINE"
-);
 }
 );
 width = 509;
@@ -17652,9 +17632,7 @@ nodes = (
 "194 671 LINE",
 "5 671 LINE",
 "227 278 LINE",
-"227 0 LINE",
-"5 671 LINE",
-"194 671 LINE"
+"227 0 LINE"
 );
 },
 {
@@ -17673,15 +17651,6 @@ nodes = (
 "489 268 LINE",
 "129 268 LINE",
 "129 183 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"489 68 LINE",
-"489 153 LINE",
-"129 153 LINE",
-"129 68 LINE"
 );
 }
 );
@@ -18299,24 +18268,6 @@ nodes = (
 "138 239 LINE",
 "138 208 LINE"
 );
-},
-{
-closed = 1;
-nodes = (
-"465 208 LINE",
-"465 239 LINE",
-"138 239 LINE",
-"138 208 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"465 117 LINE",
-"465 148 LINE",
-"138 148 LINE",
-"138 117 LINE"
-);
 }
 );
 width = 600;
@@ -18336,9 +18287,7 @@ nodes = (
 "191 671 LINE",
 "2 671 LINE",
 "213 278 LINE",
-"213 0 LINE",
-"2 671 LINE",
-"191 671 LINE"
+"213 0 LINE"
 );
 },
 {
@@ -18358,15 +18307,6 @@ nodes = (
 "115 268 LINE",
 "115 183 LINE"
 );
-},
-{
-closed = 1;
-nodes = (
-"475 68 LINE",
-"475 153 LINE",
-"115 153 LINE",
-"115 68 LINE"
-);
 }
 );
 width = 600;
@@ -18375,7 +18315,7 @@ width = 600;
 },
 {
 glyphname = multiply;
-lastChange = "2019-04-15 20:38:25 +0000";
+lastChange = "2019-04-15 20:57:51 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -18383,24 +18323,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"261 226 LINE",
-"251 224 LINE",
+"255 220 LINE",
 "410 66 LINE",
 "435 91 LINE",
-"277 250 LINE",
-"275 240 LINE",
+"281 246 LINE",
 "435 401 LINE",
 "410 426 LINE",
-"249 266 LINE",
-"259 268 LINE",
+"255 272 LINE",
 "100 426 LINE",
 "75 401 LINE",
-"233 242 LINE",
-"235 252 LINE",
+"229 246 LINE",
 "75 91 LINE",
-"100 66 LINE",
-"410 426 LINE",
-"435 401 LINE"
+"100 66 LINE"
 );
 }
 );
@@ -18423,9 +18357,7 @@ nodes = (
 "50 382 LINE",
 "168 265 LINE",
 "50 148 LINE",
-"164 34 LINE",
-"398 496 LINE",
-"512 382 LINE"
+"164 34 LINE"
 );
 }
 );
@@ -18464,9 +18396,7 @@ nodes = (
 "221 134 CURVE SMOOTH",
 "221 117 OFFCURVE",
 "236 102 OFFCURVE",
-"254 102 CURVE SMOOTH",
-"221 134 CURVE SMOOTH",
-"221 152 OFFCURVE"
+"254 102 CURVE SMOOTH"
 );
 },
 {
@@ -18483,9 +18413,7 @@ nodes = (
 "221 355 CURVE SMOOTH",
 "221 338 OFFCURVE",
 "236 323 OFFCURVE",
-"254 323 CURVE SMOOTH",
-"221 355 CURVE SMOOTH",
-"221 373 OFFCURVE"
+"254 323 CURVE SMOOTH"
 );
 }
 );
@@ -18633,8 +18561,7 @@ nodes = (
 "353 251 LINE",
 "353 265 LINE",
 "77 148 LINE",
-"94 119 LINE",
-"94 397 LINE"
+"94 119 LINE"
 );
 },
 {
@@ -18697,8 +18624,7 @@ nodes = (
 "374 397 LINE",
 "89 273 LINE",
 "89 243 LINE",
-"374 119 LINE",
-"374 397 LINE"
+"374 119 LINE"
 );
 },
 {
