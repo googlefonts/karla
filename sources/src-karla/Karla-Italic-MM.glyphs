@@ -1,5 +1,15 @@
 {
 .appVersion = "1230";
+DisplayStrings = (
+"/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf",
+",.;:!?#*///backslash/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf",
+"/zero.tf 0/one.tf 1/two.tf 2/three.tf 3/four.tf 4/five.tf 5/six.tf 6/seven.tf 7/eight.tf 8/nine.tf 9",
+"+/minus =<>%^~.÷/notequal/greaterequal/lessequal ±/approxequal",
+"+/minus =<>%^~×÷/notequal/greaterequal/lessequal ±/approxequal",
+"+",
+"+/minus =<>%^~×÷/notequal/greaterequal/lessequal +±/approxequal/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf",
+",.;:-/endash/emdash !'/apostrophe/quoteleft/quoteright ()?\"#*///backslash []_{}/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf/underscore.tf/quotedbl.tf"
+);
 classes = (
 {
 code = "B D E F H' I K L M N P R b h i j k l m n p r bar dotlessi Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Ntilde igrave iacute icircumflex idieresis ntilde bracketleft";
@@ -297,11 +307,29 @@ Otilde
 );
 date = "2011-06-08 13:35:45 +0000";
 disablesAutomaticAlignment = 1;
-familyName = "Karla Latin";
+familyName = Karla;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012";
+name = Languagesystems;
+}
+);
 features = (
 {
-code = "sub zero by zero.prop ;\012  sub one by one.prop ;\012  sub two by two.prop ;\012  sub three by three.prop ;\012  sub four by four.prop ;\012  sub five by five.prop ;\012  sub six by six.prop ;\012  sub seven by seven.prop ;\012  sub eight by eight.prop ;\012  sub nine by nine.prop ;\012";
-name = onum;
+automatic = 1;
+code = "feature pnum;\012feature tnum;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012sub period.tf by period;\012sub comma.tf by comma;\012sub colon.tf by colon;\012sub semicolon.tf by semicolon;\012sub exclam.tf by exclam;\012sub question.tf by question;\012sub asterisk.tf by asterisk;\012sub numbersign.tf by numbersign;\012sub slash.tf by slash;\012sub backslash.tf by backslash;\012sub parenleft.tf by parenleft;\012sub parenright.tf by parenright;\012sub braceleft.tf by braceleft;\012sub braceright.tf by braceright;\012sub bracketleft.tf by bracketleft;\012sub bracketright.tf by bracketright;\012sub underscore.tf by underscore;\012sub quotedbl.tf by quotedbl;\012sub cent.tf by cent;\012sub currency.tf by currency;\012sub dollar.tf by dollar;\012sub euro.tf by euro;\012sub sterling.tf by sterling;\012sub yen.tf by yen;\012sub plus.tf by plus;\012sub minus.tf by minus;\012sub multiply.tf by multiply;\012sub divide.tf by divide;\012sub equal.tf by equal;\012sub notequal.tf by notequal;\012sub greater.tf by greater;\012sub less.tf by less;\012sub greaterequal.tf by greaterequal;\012sub lessequal.tf by lessequal;\012sub plusminus.tf by plusminus;\012sub approxequal.tf by approxequal;\012sub asciitilde.tf by asciitilde;\012sub asciicircum.tf by asciicircum;\012sub percent.tf by percent;\012";
+name = pnum;
+},
+{
+automatic = 1;
+code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012sub period by period.tf;\012sub comma by comma.tf;\012sub colon by colon.tf;\012sub semicolon by semicolon.tf;\012sub exclam by exclam.tf;\012sub question by question.tf;\012sub asterisk by asterisk.tf;\012sub numbersign by numbersign.tf;\012sub slash by slash.tf;\012sub backslash by backslash.tf;\012sub parenleft by parenleft.tf;\012sub parenright by parenright.tf;\012sub braceleft by braceleft.tf;\012sub braceright by braceright.tf;\012sub bracketleft by bracketleft.tf;\012sub bracketright by bracketright.tf;\012sub underscore by underscore.tf;\012sub quotedbl by quotedbl.tf;\012sub cent by cent.tf;\012sub currency by currency.tf;\012sub dollar by dollar.tf;\012sub euro by euro.tf;\012sub sterling by sterling.tf;\012sub yen by yen.tf;\012sub plus by plus.tf;\012sub minus by minus.tf;\012sub multiply by multiply.tf;\012sub divide by divide.tf;\012sub equal by equal.tf;\012sub notequal by notequal.tf;\012sub greater by greater.tf;\012sub less by less.tf;\012sub greaterequal by greaterequal.tf;\012sub lessequal by lessequal.tf;\012sub plusminus by plusminus.tf;\012sub approxequal by approxequal.tf;\012sub asciitilde by asciitilde.tf;\012sub asciicircum by asciicircum.tf;\012sub percent by percent.tf;\012";
+name = tnum;
 }
 );
 fontMaster = (
@@ -613,7 +641,7 @@ nodes = (
 );
 }
 );
-width = 161;
+width = 159;
 },
 {
 background = {
@@ -660,7 +688,7 @@ nodes = (
 );
 }
 );
-width = 193;
+width = 190;
 }
 );
 unicode = 002E;
@@ -9645,7 +9673,8 @@ nodes = (
 "58 124 OFFCURVE",
 "133 -12 OFFCURVE",
 "269 -12 CURVE SMOOTH",
-"504 571 OFFCURVE"
+"269 -12 CURVE SMOOTH",
+"133 -12 OFFCURVE"
 );
 },
 {
@@ -9664,7 +9693,8 @@ nodes = (
 "400 108 OFFCURVE",
 "345 61 OFFCURVE",
 "276 61 CURVE SMOOTH",
-"368 309 OFFCURVE"
+"276 61 CURVE SMOOTH",
+"345 61 OFFCURVE"
 );
 }
 );
@@ -9701,7 +9731,8 @@ nodes = (
 "53 124 OFFCURVE",
 "142 -14 OFFCURVE",
 "289 -14 CURVE SMOOTH",
-"546 586 OFFCURVE"
+"289 -14 CURVE SMOOTH",
+"142 -14 OFFCURVE"
 );
 },
 {
@@ -9720,7 +9751,8 @@ nodes = (
 "404 135 OFFCURVE",
 "356 95 OFFCURVE",
 "299 95 CURVE SMOOTH",
-"375 301 OFFCURVE"
+"299 95 CURVE SMOOTH",
+"356 95 OFFCURVE"
 );
 }
 );
@@ -10154,7 +10186,8 @@ nodes = (
 "68 72 OFFCURVE",
 "141 -11 OFFCURVE",
 "254 -11 CURVE SMOOTH",
-"198 640 OFFCURVE"
+"254 -11 CURVE SMOOTH",
+"141 -11 OFFCURVE"
 );
 },
 {
@@ -10173,11 +10206,12 @@ nodes = (
 "405 373 OFFCURVE",
 "348 319 OFFCURVE",
 "282 319 CURVE SMOOTH",
-"372 567 OFFCURVE"
+"282 319 CURVE SMOOTH",
+"348 319 OFFCURVE"
 );
 }
 );
-width = 523;
+width = 510;
 },
 {
 background = {
@@ -10268,7 +10302,8 @@ nodes = (
 "60 70 OFFCURVE",
 "145 -14 OFFCURVE",
 "265 -14 CURVE SMOOTH",
-"196 662 OFFCURVE"
+"265 -14 CURVE SMOOTH",
+"145 -14 OFFCURVE"
 );
 },
 {
@@ -10287,11 +10322,12 @@ nodes = (
 "397 390 OFFCURVE",
 "346 348 OFFCURVE",
 "292 348 CURVE SMOOTH",
-"366 554 OFFCURVE"
+"292 348 CURVE SMOOTH",
+"346 348 OFFCURVE"
 );
 }
 );
-width = 549;
+width = 535;
 }
 );
 unicode = 0039;
@@ -11644,7 +11680,8 @@ nodes = (
 "186 292 OFFCURVE",
 "178 206 CURVE SMOOTH",
 "174 161 LINE",
-"161 640 OFFCURVE"
+"174 161 LINE",
+"178 206 CURVE SMOOTH"
 );
 },
 {
@@ -11663,7 +11700,8 @@ nodes = (
 "144 13 OFFCURVE",
 "163 -11 OFFCURVE",
 "193 -11 CURVE SMOOTH",
-"174 102 OFFCURVE"
+"193 -11 CURVE SMOOTH",
+"163 -11 OFFCURVE"
 );
 }
 );
@@ -11704,7 +11742,8 @@ nodes = (
 "187 321 OFFCURVE",
 "179 234 CURVE SMOOTH",
 "175 194 LINE",
-"162 662 OFFCURVE"
+"175 194 LINE",
+"179 234 CURVE SMOOTH"
 );
 },
 {
@@ -11723,7 +11762,8 @@ nodes = (
 "141 20 OFFCURVE",
 "167 -14 OFFCURVE",
 "211 -14 CURVE SMOOTH",
-"183 143 OFFCURVE"
+"211 -14 CURVE SMOOTH",
+"167 -14 OFFCURVE"
 );
 }
 );
@@ -17272,9 +17312,7 @@ nodes = (
 "153 170 LINE",
 "127 31 LINE",
 "127 31 LINE",
-"153 170 LINE",
-"424 170 LINE",
-"398 31 LINE"
+"153 170 LINE"
 );
 },
 {
@@ -17284,9 +17322,7 @@ nodes = (
 "402 402 LINE",
 "368 224 LINE",
 "230 224 LINE",
-"230 224 LINE",
-"368 224 LINE",
-"402 402 LINE"
+"230 224 LINE"
 );
 }
 );
@@ -17349,9 +17385,7 @@ nodes = (
 "149 164 LINE",
 "124 33 LINE",
 "124 33 LINE",
-"149 164 LINE",
-"471 164 LINE",
-"446 33 LINE"
+"149 164 LINE"
 );
 },
 {
@@ -17361,9 +17395,7 @@ nodes = (
 "415 399 LINE",
 "385 241 LINE",
 "263 241 LINE",
-"263 241 LINE",
-"385 241 LINE",
-"415 399 LINE"
+"263 241 LINE"
 );
 }
 );
@@ -17397,8 +17429,8 @@ nodes = (
 "204 516 LINE",
 "114 427 LINE",
 "151 388 LINE",
-"114 427 LINE",
-"204 516 LINE"
+"151 388 LINE",
+"114 427 LINE"
 );
 }
 );
@@ -17425,8 +17457,8 @@ nodes = (
 "194 528 LINE",
 "109 447 LINE",
 "156 396 LINE",
-"109 447 LINE",
-"194 528 LINE"
+"156 396 LINE",
+"109 447 LINE"
 );
 }
 );
@@ -17743,7 +17775,7 @@ nodes = (
 "166 731 LINE",
 "95 731 LINE",
 "397 -73 LINE",
-"95 731 LINE"
+"397 -73 LINE"
 );
 }
 );
@@ -17759,7 +17791,7 @@ nodes = (
 "199 746 LINE",
 "91 746 LINE",
 "400 -80 LINE",
-"91 746 LINE"
+"400 -80 LINE"
 );
 }
 );
@@ -20941,6 +20973,214 @@ width = 600;
 );
 },
 {
+glyphname = parenleft.tf;
+lastChange = "2019-04-16 11:58:47 +0000";
+layers = (
+{
+components = (
+{
+name = parenleft;
+transform = "{1, 0, 0, 1, 74, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = parenleft;
+transform = "{1, 0, 0, 1, 57, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = parenright.tf;
+lastChange = "2019-04-16 11:59:22 +0000";
+layers = (
+{
+components = (
+{
+name = parenright;
+transform = "{1, 0, 0, 1, 148, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = parenright;
+transform = "{1, 0, 0, 1, 125, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = braceleft.tf;
+lastChange = "2019-04-16 12:00:19 +0000";
+layers = (
+{
+components = (
+{
+name = braceleft;
+transform = "{1, 0, 0, 1, 65, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = braceleft;
+transform = "{1, 0, 0, 1, 44, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = braceright.tf;
+lastChange = "2019-04-16 12:00:59 +0000";
+layers = (
+{
+components = (
+{
+name = braceright;
+transform = "{1, 0, 0, 1, 173, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = braceright;
+transform = "{1, 0, 0, 1, 154, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = bracketleft.tf;
+lastChange = "2019-04-16 12:01:29 +0000";
+layers = (
+{
+components = (
+{
+name = bracketleft;
+transform = "{1, 0, 0, 1, 90, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = bracketleft;
+transform = "{1, 0, 0, 1, 74, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = bracketright.tf;
+lastChange = "2019-04-16 12:02:32 +0000";
+layers = (
+{
+components = (
+{
+name = bracketright;
+transform = "{1, 0, 0, 1, 183, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = bracketright;
+transform = "{1, 0, 0, 1, 142, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = underscore.tf;
+lastChange = "2019-04-16 12:03:30 +0000";
+layers = (
+{
+components = (
+{
+name = underscore;
+transform = "{1, 0, 0, 1, -18, 30}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = underscore;
+transform = "{0.92305, 0, 0, 1, -14, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = quotedbl.tf;
+lastChange = "2019-04-16 12:04:37 +0000";
+layers = (
+{
+components = (
+{
+name = quotedbl;
+transform = "{1, 0, 0, 1, 104, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = quotedbl;
+transform = "{1, 0, 0, 1, 68, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
 glyphname = .notdef;
 lastChange = "2019-04-15 20:26:35 +0000";
 layers = (
@@ -21103,8 +21343,61 @@ width = 600;
 );
 },
 {
+glyphname = multiply;
+lastChange = "2019-04-16 11:17:53 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"246 292 LINE",
+"115 423 LINE",
+"63 380 LINE",
+"194 249 LINE",
+"30 113 LINE",
+"81 63 LINE",
+"244 199 LINE",
+"375 68 LINE",
+"427 111 LINE",
+"296 242 LINE",
+"460 377 LINE",
+"409 428 LINE"
+);
+}
+);
+width = 490;
+},
+{
+layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"247 316 LINE",
+"123 440 LINE",
+"43 374 LINE",
+"167 250 LINE",
+"18 125 LINE",
+"92 50 LINE",
+"242 175 LINE",
+"366 51 LINE",
+"446 117 LINE",
+"322 241 LINE",
+"472 365 LINE",
+"397 440 LINE"
+);
+}
+);
+width = 490;
+}
+);
+unicode = 00D7;
+},
+{
 glyphname = divide;
-lastChange = "2019-04-15 21:41:16 +0000";
+lastChange = "2019-04-16 11:18:01 +0000";
 layers = (
 {
 components = (
@@ -21128,7 +21421,7 @@ width = 439;
 components = (
 {
 name = minus;
-transform = "{1, 0, 0, 1, -30, -40}";
+transform = "{1, 0, 0, 1, -22, -40}";
 },
 {
 name = period;
@@ -21147,7 +21440,7 @@ unicode = 00F7;
 },
 {
 glyphname = notequal;
-lastChange = "2019-04-15 21:27:55 +0000";
+lastChange = "2019-04-16 11:28:02 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -21188,39 +21481,39 @@ paths = (
 {
 closed = 1;
 nodes = (
-"128 95 LINE",
-"441 95 LINE",
-"451 198 LINE",
-"138 198 LINE"
+"79 95 LINE",
+"392 95 LINE",
+"402 198 LINE",
+"89 198 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"149 306 LINE",
-"462 306 LINE",
-"471 408 LINE",
-"158 408 LINE"
+"100 306 LINE",
+"413 306 LINE",
+"422 408 LINE",
+"109 408 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"308 41 LINE",
-"405 466 LINE",
-"298 466 LINE",
-"200 41 LINE"
+"256 41 LINE",
+"353 466 LINE",
+"246 466 LINE",
+"148 41 LINE"
 );
 }
 );
-width = 600;
+width = 455;
 }
 );
 unicode = 2260;
 },
 {
 glyphname = greaterequal;
-lastChange = "2019-04-15 21:50:37 +0000";
+lastChange = "2019-04-16 11:34:32 +0000";
 layers = (
 {
 components = (
@@ -21259,14 +21552,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"396 329 LINE",
-"386 220 LINE",
-"113 138 LINE",
-"71 221 LINE",
-"338 297 LINE",
-"336 265 LINE",
-"100 377 LINE",
-"158 470 LINE"
+"406 369 LINE",
+"396 260 LINE",
+"113 168 LINE",
+"71 251 LINE",
+"348 337 LINE",
+"346 305 LINE",
+"100 407 LINE",
+"158 500 LINE"
 );
 }
 );
@@ -21277,14 +21570,56 @@ unicode = 2265;
 },
 {
 glyphname = lessequal;
-lastChange = "2019-04-15 21:39:41 +0000";
+lastChange = "2019-04-16 11:34:29 +0000";
 layers = (
 {
+components = (
+{
+name = minus;
+transform = "{1, 0, 0, 1, -27, -258}";
+}
+);
 layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"386 378 LINE",
+"112 254 LINE",
+"110 282 LINE",
+"393 190 LINE",
+"375 131 LINE",
+"77 231 LINE",
+"71 300 LINE",
+"354 436 LINE"
+);
+}
+);
 width = 439;
 },
 {
+components = (
+{
+name = minus;
+transform = "{1, 0, 0, 1, -20, -250}";
+}
+);
 layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"417 421 LINE",
+"151 305 LINE",
+"139 337 LINE",
+"416 261 LINE",
+"374 178 LINE",
+"91 260 LINE",
+"91 369 LINE",
+"369 503 LINE"
+);
+}
+);
 width = 455;
 }
 );
@@ -21292,20 +21627,45 @@ unicode = 2264;
 },
 {
 glyphname = plusminus;
-lastChange = "2019-04-15 21:36:41 +0000";
+lastChange = "2019-04-16 11:40:04 +0000";
 layers = (
 {
 components = (
 {
 name = minus;
 transform = "{1, 0, 0, 1, -29, -258}";
+}
+);
+guideLines = (
+{
+angle = 264.8787;
+position = "{226, 498}";
 },
 {
-name = plus;
-transform = "{1, 0, 0, 1, -12, 113}";
+angle = 264.6107;
+position = "{297, 498}";
 }
 );
 layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"211 327 LINE",
+"56 327 LINE",
+"50 260 LINE",
+"205 260 LINE",
+"191 109 LINE",
+"261 109 LINE",
+"276 260 LINE",
+"432 260 LINE",
+"438 327 LINE",
+"281 327 LINE",
+"295 479 LINE",
+"224 479 LINE"
+);
+}
+);
 width = 480;
 },
 {
@@ -21313,13 +21673,37 @@ components = (
 {
 name = minus;
 transform = "{1, 0, 0, 1, -2, -250}";
+}
+);
+guideLines = (
+{
+angle = 264.6991;
+position = "{365, 534}";
 },
 {
-name = plus;
-transform = "{1, 0, 0, 1, 30, 140}";
+position = "{-576, 503}";
 }
 );
 layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"230 373 LINE",
+"94 373 LINE",
+"84 270 LINE",
+"221 270 LINE",
+"208 140 LINE",
+"314 140 LINE",
+"326 270 LINE",
+"461 270 LINE",
+"471 373 LINE",
+"336 373 LINE",
+"348 503 LINE",
+"242 503 LINE"
+);
+}
+);
 width = 555;
 }
 );
@@ -21359,6 +21743,422 @@ width = 513;
 }
 );
 unicode = 2248;
+},
+{
+glyphname = plus.tf;
+lastChange = "2019-04-16 11:24:11 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"268 279 LINE",
+"82 279 LINE",
+"76 212 LINE",
+"261 212 LINE",
+"242 0 LINE",
+"313 0 LINE",
+"332 212 LINE",
+"518 212 LINE",
+"524 279 LINE",
+"339 279 LINE",
+"359 491 LINE",
+"287 491 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"252 297 LINE",
+"76 297 LINE",
+"66 194 LINE",
+"242 194 LINE",
+"224 0 LINE",
+"330 0 LINE",
+"348 194 LINE",
+"523 194 LINE",
+"533 297 LINE",
+"358 297 LINE",
+"376 491 LINE",
+"270 491 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+glyphname = minus.tf;
+lastChange = "2019-04-16 11:25:18 +0000";
+layers = (
+{
+components = (
+{
+name = minus;
+transform = "{1, 0, 0, 1, -27, 0}";
+}
+);
+layerId = UUID0;
+width = 439;
+},
+{
+components = (
+{
+name = minus;
+transform = "{1, 0, 0, 1, -29, 0}";
+}
+);
+layerId = UUID1;
+width = 455;
+}
+);
+},
+{
+glyphname = multiply.tf;
+lastChange = "2019-04-16 11:25:57 +0000";
+layers = (
+{
+components = (
+{
+name = multiply;
+transform = "{1, 0, 0, 1, 55, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = multiply;
+transform = "{1, 0, 0, 1, 55, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = divide.tf;
+lastChange = "2019-04-16 11:26:44 +0000";
+layers = (
+{
+components = (
+{
+name = divide;
+transform = "{1, 0, 0, 1, 83, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = divide;
+transform = "{1, 0, 0, 1, 66, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = equal.tf;
+lastChange = "2019-04-16 11:27:27 +0000";
+layers = (
+{
+components = (
+{
+name = equal;
+transform = "{1, 0, 0, 1, 58, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = equal;
+transform = "{1, 0, 0, 1, 49, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = notequal.tf;
+lastChange = "2019-04-16 11:28:34 +0000";
+layers = (
+{
+components = (
+{
+name = notequal;
+transform = "{1, 0, 0, 1, 57, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = notequal;
+transform = "{1, 0, 0, 1, 50, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = greater.tf;
+lastChange = "2019-04-16 11:41:31 +0000";
+layers = (
+{
+components = (
+{
+name = greater;
+transform = "{1, 0, 0, 1, 73, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = greater;
+transform = "{1, 0, 0, 1, 51, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = less.tf;
+lastChange = "2019-04-16 11:41:50 +0000";
+layers = (
+{
+components = (
+{
+name = less;
+transform = "{1, 0, 0, 1, 62, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = less;
+transform = "{1, 0, 0, 1, 37, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = greaterequal.tf;
+lastChange = "2019-04-16 11:33:57 +0000";
+layers = (
+{
+components = (
+{
+name = greaterequal;
+transform = "{1, 0, 0, 1, 87, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = greaterequal;
+transform = "{1, 0, 0, 1, 61, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = lessequal.tf;
+lastChange = "2019-04-16 11:40:39 +0000";
+layers = (
+{
+components = (
+{
+name = lessequal;
+transform = "{1, 0, 0, 1, 70, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = lessequal;
+transform = "{1, 0, 0, 1, 54, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = plusminus.tf;
+lastChange = "2019-04-16 11:41:09 +0000";
+layers = (
+{
+components = (
+{
+name = plusminus;
+transform = "{1, 0, 0, 1, 56, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = plusminus;
+transform = "{1, 0, 0, 1, 22, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = approxequal.tf;
+lastChange = "2019-04-16 11:42:21 +0000";
+layers = (
+{
+components = (
+{
+name = approxequal;
+transform = "{1, 0, 0, 1, 72, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = approxequal;
+transform = "{1, 0, 0, 1, 31, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = asciitilde.tf;
+lastChange = "2019-04-16 11:43:22 +0000";
+layers = (
+{
+components = (
+{
+name = asciitilde;
+transform = "{1, 0, 0, 1, 42, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = asciitilde;
+transform = "{1, 0, 0, 1, 16, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = asciicircum.tf;
+lastChange = "2019-04-16 11:44:09 +0000";
+layers = (
+{
+components = (
+{
+name = asciicircum;
+transform = "{1, 0, 0, 1, 73, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = asciicircum;
+transform = "{1, 0, 0, 1, 41, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
+glyphname = percent.tf;
+lastChange = "2019-04-16 11:44:46 +0000";
+layers = (
+{
+components = (
+{
+name = percent;
+transform = "{1, 0, 0, 1, -58, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = percent;
+transform = "{1, 0, 0, 1, -78, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
 }
 );
 instances = (
