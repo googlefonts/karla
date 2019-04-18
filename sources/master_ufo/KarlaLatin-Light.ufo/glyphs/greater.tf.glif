@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater.tf" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="164" y="524" type="line"/>
+      <point x="459" y="303" type="line"/>
+      <point x="459" y="273" type="line"/>
+      <point x="164" y="52" type="line"/>
+      <point x="141" y="83" type="line"/>
+      <point x="433" y="295" type="line"/>
+      <point x="433" y="281" type="line"/>
+      <point x="141" y="495" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/15 18:01:26</string>
+    </dict>
+  </lib>
+</glyph>

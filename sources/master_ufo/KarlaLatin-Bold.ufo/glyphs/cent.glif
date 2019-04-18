@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cent" format="2">
+  <advance width="545"/>
+  <unicode hex="00A2"/>
+  <guideline x="977" y="764" angle="0"/>
+  <outline>
+    <contour>
+      <point x="216" y="604" type="line"/>
+      <point x="345" y="604" type="line"/>
+      <point x="345" y="468" type="line"/>
+      <point x="216" y="468" type="line"/>
+    </contour>
+    <contour>
+      <point x="216" y="34" type="line"/>
+      <point x="345" y="34" type="line"/>
+      <point x="345" y="-111" type="line"/>
+      <point x="216" y="-111" type="line"/>
+    </contour>
+    <component base="c"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/15 19:32:25</string>
+    </dict>
+  </lib>
+</glyph>

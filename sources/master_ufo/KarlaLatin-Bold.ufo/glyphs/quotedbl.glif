@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedbl" format="2">
+  <advance width="465"/>
+  <unicode hex="0022"/>
+  <outline>
+    <component base="quotesingle" xOffset="2" yOffset="13"/>
+    <component base="quotesingle" xOffset="237" yOffset="13"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/14 20:13:24</string>
+    </dict>
+  </lib>
+</glyph>

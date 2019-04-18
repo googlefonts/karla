@@ -1,0 +1,3 @@
+fonttools>=3.32.0
+defcon>=0.3.5
+fontMath>=0.4.8

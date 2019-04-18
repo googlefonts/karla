@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="T" format="2">
+  <outline>
+    <contour>
+      <point x="24" y="519" type="line"/>
+      <point x="24" y="414" type="line"/>
+      <point x="160" y="414" type="line"/>
+      <point x="160" y="0" type="line"/>
+      <point x="275" y="0" type="line"/>
+      <point x="275" y="414" type="line"/>
+      <point x="411" y="414" type="line"/>
+      <point x="411" y="519" type="line"/>
+    </contour>
+  </outline>
+</glyph>

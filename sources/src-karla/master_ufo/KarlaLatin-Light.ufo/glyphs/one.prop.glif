@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.prop" format="2">
+  <advance width="304"/>
+  <outline>
+    <contour>
+      <point x="158" y="508" type="line"/>
+      <point x="131" y="480"/>
+      <point x="94" y="464"/>
+      <point x="55" y="458" type="curve"/>
+      <point x="55" y="419" type="line"/>
+      <point x="91" y="422"/>
+      <point x="129" y="437"/>
+      <point x="158" y="464" type="curve"/>
+      <point x="158" y="0" type="line"/>
+      <point x="194" y="0" type="line"/>
+      <point x="194" y="508" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/14 20:13:24</string>
+    </dict>
+  </lib>
+</glyph>

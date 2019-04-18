@@ -1,0 +1,5 @@
+fonttools>=3.24.0
+defcon>=0.3.0
+
+[ufo_normalization]
+ufonormalizer

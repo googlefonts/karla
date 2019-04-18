@@ -1,0 +1,4 @@
+fonttools[ufo]>=3.32.0
+
+[cli]
+defcon>=0.6.0

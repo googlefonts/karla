@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="udieresis" format="2">
+  <advance width="583"/>
+  <unicode hex="00FC"/>
+  <anchor x="288" y="486" name="above"/>
+  <outline>
+    <component base="u"/>
+    <component base="dieresis" xOffset="159" yOffset="-191"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/14 20:13:24</string>
+    </dict>
+  </lib>
+</glyph>

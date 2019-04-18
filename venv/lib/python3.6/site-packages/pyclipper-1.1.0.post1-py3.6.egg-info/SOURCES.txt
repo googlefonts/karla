@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+pyclipper/clipper.cpp
+pyclipper/clipper.hpp
+pyclipper/extra_defines.hpp
+pyclipper/pyclipper.cpp
+pyclipper/pyclipper.pyx
+pyclipper.egg-info/PKG-INFO
+pyclipper.egg-info/SOURCES.txt
+pyclipper.egg-info/dependency_links.txt
+pyclipper.egg-info/top_level.txt
+tests/test_pyclipper.py

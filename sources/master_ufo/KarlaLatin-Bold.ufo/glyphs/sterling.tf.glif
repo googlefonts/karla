@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sterling.tf" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="33" y="399" type="line"/>
+      <point x="33" y="295" type="line"/>
+      <point x="428" y="295" type="line"/>
+      <point x="428" y="399" type="line"/>
+    </contour>
+    <contour>
+      <point x="10" y="0" type="line"/>
+      <point x="320" y="0" type="line" smooth="yes"/>
+      <point x="517" y="0"/>
+      <point x="590" y="78"/>
+      <point x="590" y="216" type="curve"/>
+      <point x="414" y="216" type="line"/>
+      <point x="410" y="169"/>
+      <point x="387" y="146"/>
+      <point x="319" y="146" type="curve" smooth="yes"/>
+      <point x="10" y="146" type="line"/>
+    </contour>
+    <contour>
+      <point x="332" y="686" type="line"/>
+      <point x="208" y="686"/>
+      <point x="108" y="616"/>
+      <point x="108" y="457" type="curve" smooth="yes"/>
+      <point x="108" y="230" type="line" smooth="yes"/>
+      <point x="108" y="173"/>
+      <point x="93" y="146"/>
+      <point x="47" y="146" type="curve"/>
+      <point x="47" y="100" type="line"/>
+      <point x="211" y="100"/>
+      <point x="268" y="147"/>
+      <point x="268" y="242" type="curve" smooth="yes"/>
+      <point x="268" y="457" type="line" smooth="yes"/>
+      <point x="268" y="514"/>
+      <point x="295" y="541"/>
+      <point x="332" y="541" type="curve" smooth="yes"/>
+      <point x="366" y="541"/>
+      <point x="385" y="518"/>
+      <point x="388" y="485" type="curve"/>
+      <point x="545" y="485" type="line"/>
+      <point x="529" y="618"/>
+      <point x="460" y="686"/>
+      <point x="332" y="686" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/15 16:26:48</string>
+    </dict>
+  </lib>
+</glyph>
