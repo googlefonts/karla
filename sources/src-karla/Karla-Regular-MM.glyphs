@@ -22,7 +22,16 @@ A,
 o,
 "!abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
 "¤",
-",.;:-/endash/emdash !abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'/apostrophe/quoteleft/quoteright ()+/minus =0123456789/zero.prop/one.prop/two.prop/three.prop/four.prop/five.prop/six.prop/seven.prop/eight.prop/nine.prop $?£`´àèòÀÈùáéóúÁÉÌÍÒÓÙÚ/circumflex âêôûÂÊÎÔÛ/tilde &@¨äëöüÄËÏÖÜ/dotlessi ìíîï/Rupee <>\"#*//%/backslash |[]^_{}~ãñõÃÑÕ/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf/underscore.tf/quotedbl.tf/.notdef ¢¤/euro ¥/cent.tf/currency.tf/dollar.tf/euro.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf"
+",.;:-/endash/emdash !abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'/apostrophe/quoteleft/quoteright ()+/minus =0123456789/zero.prop/one.prop/two.prop/three.prop/four.prop/five.prop/six.prop/seven.prop/eight.prop/nine.prop $?£`´àèòÀÈùáéóúÁÉÌÍÒÓÙÚ/circumflex âêôûÂÊÎÔÛ/tilde &@¨äëöüÄËÏÖÜ/dotlessi ìíîï/Rupee <>\"#*//%/backslash |[]^_{}~ãñõÃÑÕ/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf/underscore.tf/quotedbl.tf/.notdef ¢¤/euro ¥/cent.tf/currency.tf/dollar.tf/euro.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf",
+"/minus.tf +",
+"/plus.tf/minus.tf",
+"+/minus/plus.tf/minus.tf",
+"+/minus/plus.tf/minus.tf",
+"/lessequal.tf",
+"-/endash/emdash _/hyphen.tf/underscore.tf",
+"-/endash/emdash _/hyphen.tf/underscore.tf",
+",.;:-/endash/emdash !abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'/apostrophe/quoteleft/quoteright ()+/minus =0123456789/zero.prop/one.prop/two.prop/three.prop/four.prop/five.prop/six.prop/seven.prop/eight.prop/nine.prop $?£`´àèòÀÈùáéóúÁÉÌÍÒÓÙÚ/circumflex âêôûÂÊÎÔÛ/tilde &@¨äëöüÄËÏÖÜ/dotlessi ìíîï/Rupee <>\"#*//%/backslash |[]^_{}~ãñõÃÑÕ/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf/underscore.tf/quotedbl.tf/.notdef ¢¤/euro ¥/cent.tf/currency.tf/dollar.tf/euro.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf",
+"¤"
 );
 classes = (
 {
@@ -319,7 +328,7 @@ Otilde
 );
 }
 );
-date = "2011-06-08 13:35:45 +0000";
+date = "2019-04-18 01:42:33 +0000";
 disablesAutomaticAlignment = 1;
 familyName = Karla;
 featurePrefixes = (
@@ -8834,7 +8843,7 @@ unicode = 002B;
 },
 {
 glyphname = minus;
-lastChange = "2019-04-14 20:13:24 +0000";
+lastChange = "2019-04-28 20:02:01 +0000";
 layers = (
 {
 background = {
@@ -8855,14 +8864,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"79 265 LINE",
-"389 265 LINE",
-"389 296 LINE",
-"79 296 LINE"
+"18 233 LINE",
+"492 233 LINE",
+"492 264 LINE",
+"18 264 LINE"
 );
 }
 );
-width = 468;
+width = 510;
 },
 {
 background = {
@@ -8883,14 +8892,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"79 243 LINE",
-"447 243 LINE",
-"447 382 LINE",
-"79 382 LINE"
+"18 175 LINE",
+"543 175 LINE",
+"543 315 LINE",
+"18 315 LINE"
 );
 }
 );
-width = 526;
+width = 561;
 }
 );
 unicode = 2212;
@@ -17190,6 +17199,32 @@ width = 600;
 );
 },
 {
+glyphname = hyphen.tf;
+lastChange = "2019-04-28 20:06:50 +0000";
+layers = (
+{
+components = (
+{
+name = hyphen;
+transform = "{1, 0, 0, 1, 139, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = hyphen;
+transform = "{1, 0, 0, 1, 100, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
 glyphname = underscore.tf;
 lastChange = "2019-04-16 12:03:52 +0000";
 layers = (
@@ -18930,7 +18965,7 @@ width = 600;
 },
 {
 glyphname = minus.tf;
-lastChange = "2019-04-15 18:00:55 +0000";
+lastChange = "2019-04-28 19:59:35 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -18938,10 +18973,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"145 265 LINE",
-"455 265 LINE",
-"455 296 LINE",
-"145 296 LINE"
+"63 231 LINE",
+"537 231 LINE",
+"537 262 LINE",
+"63 262 LINE"
 );
 }
 );
@@ -18953,10 +18988,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"116 243 LINE",
-"484 243 LINE",
-"484 382 LINE",
-"116 382 LINE"
+"33 173 LINE",
+"568 173 LINE",
+"568 313 LINE",
+"33 313 LINE"
 );
 }
 );
@@ -20157,5 +20192,5 @@ Y = -24;
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
