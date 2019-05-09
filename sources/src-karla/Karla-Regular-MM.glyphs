@@ -30,8 +30,8 @@ o,
 "/lessequal.tf",
 "-/endash/emdash _/hyphen.tf/underscore.tf",
 "-/endash/emdash _/hyphen.tf/underscore.tf",
-",.;:-/endash/emdash !abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'/apostrophe/quoteleft/quoteright ()+/minus =0123456789/zero.prop/one.prop/two.prop/three.prop/four.prop/five.prop/six.prop/seven.prop/eight.prop/nine.prop $?£`´àèòÀÈùáéóúÁÉÌÍÒÓÙÚ/circumflex âêôûÂÊÎÔÛ/tilde &@¨äëöüÄËÏÖÜ/dotlessi ìíîï/Rupee <>\"#*//%/backslash |[]^_{}~ãñõÃÑÕ/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf/underscore.tf/quotedbl.tf/.notdef ¢¤/euro ¥/cent.tf/currency.tf/dollar.tf/euro.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf",
-"¤"
+"-/endash/emdash _/hyphen.tf/underscore.tf",
+"-/endash/emdash _/hyphen.tf/underscore.tf"
 );
 classes = (
 {
