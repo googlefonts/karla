@@ -21962,7 +21962,7 @@ layers = (
 components = (
 {
 name = minus;
-transform = "{1, 0, 0, 1, -19, -46}";
+transform = "{1, 0, 0, 1, 53, -46}";
 }
 );
 layerId = UUID0;
@@ -21972,7 +21972,7 @@ width = 600;
 components = (
 {
 name = minus;
-transform = "{1, 0, 0, 1, -27, -56}";
+transform = "{1, 0, 0, 1, 49, -56}";
 }
 );
 layerId = UUID1;
