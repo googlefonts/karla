@@ -1,12 +1,7 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-"$£/rupeesymbol ¢¤/euro ¥/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf",
-"¢¤/euro ¥/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf",
-"/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf/underscore.tf/quotedbl.tf",
-"&",
-"@",
-",.;:-/endash/emdash !abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'/apostrophe/quoteleft/quoteright ()+/minus =0123456789/zero.propold/one.propold/two.propold/three.propold/four.propold/five.propold/six.propold/seven.propold/eight.propold/nine.propold $?£`´àèòÀÈùáéóúÁÉÌÍÒÓÙÚ/circumflex âêôûÂÊÎÔÛ/tilde &@¨äëöüÄËÏÖÜ/dotlessi ìíîï/rupeesymbol <>\"#*//%/backslash |[]^_{}~ãñõÃÑÕ/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf/underscore.tf/quotedbl.tf/.notdef ¢¤/euro ¥/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf"
+"/hyphen.tf -"
 );
 classes = (
 {
@@ -303,7 +298,7 @@ Otilde
 );
 }
 );
-date = "2011-06-08 13:35:45 +0000";
+date = "2019-04-18 01:42:35 +0000";
 disablesAutomaticAlignment = 1;
 familyName = Karla;
 featurePrefixes = (
@@ -8668,7 +8663,7 @@ unicode = 002B;
 },
 {
 glyphname = minus;
-lastChange = "2019-04-15 20:26:35 +0000";
+lastChange = "2019-04-28 20:15:40 +0000";
 layers = (
 {
 background = {
@@ -8689,14 +8684,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"95 258 LINE",
-"392 258 LINE",
-"399 325 LINE",
-"102 325 LINE"
+"23 210 LINE",
+"461 210 LINE",
+"471 277 LINE",
+"33 277 LINE"
 );
 }
 );
-width = 439;
+width = 474;
 },
 {
 background = {
@@ -8717,14 +8712,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"94 250 LINE",
-"408 250 LINE",
-"418 353 LINE",
-"104 353 LINE"
+"18 191 LINE",
+"470 191 LINE",
+"485 294 LINE",
+"32 294 LINE"
 );
 }
 );
-width = 455;
+width = 490;
 }
 );
 unicode = 2212;
@@ -20819,6 +20814,32 @@ width = 600;
 );
 },
 {
+glyphname = hyphen.tf;
+lastChange = "2019-04-28 20:18:28 +0000";
+layers = (
+{
+components = (
+{
+name = hyphen;
+transform = "{1, 0, 0, 1, 116, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = hyphen;
+transform = "{1, 0, 0, 1, 103, 0}";
+}
+);
+layerId = UUID1;
+width = 600;
+}
+);
+},
+{
 glyphname = underscore.tf;
 lastChange = "2019-04-16 12:03:30 +0000";
 layers = (
@@ -21935,27 +21956,27 @@ width = 600;
 },
 {
 glyphname = minus.tf;
-lastChange = "2019-04-16 11:25:18 +0000";
+lastChange = "2019-04-28 20:16:28 +0000";
 layers = (
 {
 components = (
 {
 name = minus;
-transform = "{1, 0, 0, 1, -27, 0}";
+transform = "{1, 0, 0, 1, -19, -46}";
 }
 );
 layerId = UUID0;
-width = 439;
+width = 600;
 },
 {
 components = (
 {
 name = minus;
-transform = "{1, 0, 0, 1, -29, 0}";
+transform = "{1, 0, 0, 1, -27, -56}";
 }
 );
 layerId = UUID1;
-width = 455;
+width = 600;
 }
 );
 },
@@ -22871,5 +22892,5 @@ Y = -37;
 manufacturer = "Jonathan Pinhorn";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
