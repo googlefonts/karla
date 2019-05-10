@@ -29,8 +29,6 @@ o,
 "+/minus/plus.tf/minus.tf",
 "/lessequal.tf",
 "-/endash/emdash _/hyphen.tf/underscore.tf",
-"-/endash/emdash _/hyphen.tf/underscore.tf",
-"-/endash/emdash _/hyphen.tf/underscore.tf",
 "-/endash/emdash _/hyphen.tf/underscore.tf"
 );
 classes = (
