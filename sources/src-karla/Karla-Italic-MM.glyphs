@@ -1,7 +1,7 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-nooonon.adslfkj
+hp
 );
 classes = (
 {
@@ -334,44 +334,44 @@ alignmentZones = (
 "{0, -22}",
 "{-470, -22}"
 );
-ascender = 1758;
+ascender = 1834;
 capHeight = 1258;
 custom = Italic;
 customParameters = (
 {
+name = typoAscender;
+value = 1834;
+},
+{
 name = typoDescender;
-value = -492;
+value = -504;
 },
 {
 name = typoLineGap;
-value = 94;
+value = 0;
 },
 {
 name = hheaLineGap;
-value = 48;
+value = 0;
 },
 {
 name = hheaAscender;
-value = 1758;
-},
-{
-name = typoAscender;
-value = 1362;
+value = 1834;
 },
 {
 name = hheaDescender;
-value = -492;
+value = -504;
 },
 {
 name = winDescent;
-value = 492;
+value = 504;
 },
 {
 name = winAscent;
-value = 1758;
+value = 1834;
 }
 );
-descender = -492;
+descender = -504;
 id = UUID0;
 weightValue = 71;
 xHeight = 956;
@@ -384,44 +384,44 @@ alignmentZones = (
 "{0, -28}",
 "{-470, -22}"
 );
-ascender = 1758;
+ascender = 1834;
 capHeight = 1298;
 custom = Italic;
 customParameters = (
 {
 name = typoDescender;
-value = -492;
+value = -504;
 },
 {
 name = typoLineGap;
-value = 94;
+value = 0;
 },
 {
 name = hheaLineGap;
-value = 48;
+value = 0;
 },
 {
 name = hheaAscender;
-value = 1758;
+value = 1834;
 },
 {
 name = typoAscender;
-value = 1362;
+value = 1834;
 },
 {
 name = hheaDescender;
-value = -492;
+value = -504;
 },
 {
 name = winDescent;
-value = 492;
+value = 504;
 },
 {
 name = winAscent;
-value = 1758;
+value = 1834;
 }
 );
-descender = -492;
+descender = -504;
 id = UUID1;
 weight = Bold;
 weightValue = 106;
