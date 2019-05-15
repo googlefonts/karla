@@ -1,22 +1,31 @@
 #!/bin/sh
+
+# -------------------------------------------------------------------
+# UPDATE THIS VARIABLE ----------------------------------------------
+
+thisFont="YourFontFamilyName" # must match the name in the font file, e.g. FiraCode-VF.ttf needs the variable "FiraCode"
+
+# -------------------------------------------------------------------
+# Update the following as needed ------------------------------------
+
 source venv/bin/activate
 set -e
 
 cd sources
 
-# echo "Generating Static fonts"
-# mkdir -p ../fonts/ttfs
-# fontmake -g Merriweather-Roman.glyphs -i -o ttf --output-dir ../fonts/ttfs/
-# fontmake -g Merriweather-Italic.glyphs -i -o ttf --output-dir ../fonts/ttfs/
+echo "Generating Static fonts"
+mkdir -p ../fonts/ttfs
+fontmake -g $thisFont-Roman.glyphs -i -o ttf --output-dir ../fonts/ttfs/
+fontmake -g $thisFont-Italic.glyphs -i -o ttf --output-dir ../fonts/ttfs/
 
 echo "Generating VFs"
 mkdir -p ../fonts/variable
-fontmake -g src-karla/Karla-Regular-MM.glyphs -o variable --output-path ../fonts/variable/Karla-Roman-VF.ttf
-fontmake -g src-karla/Karla-Italic-MM.glyphs -o variable --output-path ../fonts/variable/Karla-Italic-VF.ttf
+fontmake -g $thisFont-Roman.glyphs -o variable --output-path ../fonts/variable/$thisFont-Roman-VF.ttf
+fontmake -g $thisFont-Italic.glyphs -o variable --output-path ../fonts/variable/$thisFont-Italic-VF.ttf
 
 rm -rf master_ufo/ instance_ufo/
-echo "Post processing"
 
+echo "Post processing"
 
 ttfs=$(ls ../fonts/ttfs/*.ttf)
 echo $ttfs
