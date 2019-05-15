@@ -5,6 +5,9 @@ a,
 "/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf \0120123456789",
 e,
 "Á",
+"¢¤/euro ¥/cent.tf/currency.tf/dollar.tf/euro.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf",
+"ìíîï/Rupee <>\"#*//%/backslash |[]^_{}~ãñõÃÑÕ",
+"/currency.tf",
 "¢¤/euro ¥/cent.tf/currency.tf/dollar.tf/euro.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf"
 );
 classes = (
