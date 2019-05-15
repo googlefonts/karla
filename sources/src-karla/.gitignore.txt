@@ -1,2 +1,0 @@
-instance_ufo
-master_ufo
