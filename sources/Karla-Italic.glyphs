@@ -33226,8 +33226,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = period.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -33324,8 +33325,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = comma.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -33438,8 +33440,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = colon.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -33604,8 +33607,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = semicolon.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -33786,8 +33790,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = exclam.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -33920,8 +33925,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = question.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -34150,8 +34156,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = asterisk.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -34260,8 +34267,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = numbersign.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -34458,8 +34466,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = slash.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -34524,8 +34533,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = backslash.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -34590,8 +34600,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = parenleft.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 components = (
@@ -34638,8 +34649,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = parenright.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 components = (
@@ -34686,8 +34698,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = braceleft.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 components = (
@@ -34734,8 +34747,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = braceright.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 components = (
@@ -34782,8 +34796,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = bracketleft.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 components = (
@@ -34830,8 +34845,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = bracketright.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 components = (
@@ -34878,8 +34894,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = hyphen.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 components = (
@@ -34926,8 +34943,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = underscore.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 components = (
@@ -34974,8 +34992,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = quotedbl.tf;
-lastChange = "2019-05-15 19:49:03 +0000";
+lastChange = "2019-05-16 17:36:28 +0000";
 layers = (
 {
 components = (
@@ -37761,7 +37780,7 @@ interpolationWeight = 33;
 instanceInterpolations = {
 "AD226DB4-BE97-401A-8A1F-FC26A063DFB1" = 1;
 };
-name = UltraLight;
+name = "UltraLight Italic";
 weightClass = UltraLight;
 },
 {

@@ -22381,8 +22381,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = period.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 layerId = "B502AB2C-259B-4691-A7E9-F302DF43C341";
@@ -22479,8 +22480,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = comma.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 layerId = "B502AB2C-259B-4691-A7E9-F302DF43C341";
@@ -22593,8 +22595,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = colon.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -22663,8 +22666,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = semicolon.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -22733,8 +22737,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = exclam.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 layerId = "B502AB2C-259B-4691-A7E9-F302DF43C341";
@@ -22867,8 +22872,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = question.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 layerId = "B502AB2C-259B-4691-A7E9-F302DF43C341";
@@ -23097,8 +23103,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = asterisk.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 layerId = "B502AB2C-259B-4691-A7E9-F302DF43C341";
@@ -23207,8 +23214,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = numbersign.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 layerId = "B502AB2C-259B-4691-A7E9-F302DF43C341";
@@ -23405,8 +23413,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = slash.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 layerId = "B502AB2C-259B-4691-A7E9-F302DF43C341";
@@ -23471,8 +23480,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = backslash.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -23521,8 +23531,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = parenleft.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -23571,8 +23582,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = parenright.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -23621,8 +23633,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = braceleft.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -23671,8 +23684,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = braceright.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -23721,8 +23735,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = bracketleft.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -23771,8 +23786,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = bracketright.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -23821,8 +23837,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = hyphen.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -23871,8 +23888,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = underscore.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
@@ -23921,8 +23939,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = quotedbl.tf;
-lastChange = "2019-05-15 19:48:41 +0000";
+lastChange = "2019-05-16 17:36:35 +0000";
 layers = (
 {
 components = (
