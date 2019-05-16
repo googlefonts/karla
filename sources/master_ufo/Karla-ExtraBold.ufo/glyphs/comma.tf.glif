@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="comma.tf" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="574" y="-347" type="line"/>
+      <point x="751" y="-263"/>
+      <point x="871" y="-83"/>
+      <point x="871" y="83" type="curve" smooth="yes"/>
+      <point x="871" y="244"/>
+      <point x="776" y="373"/>
+      <point x="612" y="373" type="curve" smooth="yes"/>
+      <point x="483" y="373"/>
+      <point x="388" y="289"/>
+      <point x="388" y="177" type="curve" smooth="yes"/>
+      <point x="388" y="77"/>
+      <point x="466" y="14"/>
+      <point x="563" y="-10" type="curve"/>
+      <point x="531" y="-95"/>
+      <point x="432" y="-171"/>
+      <point x="325" y="-224" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/05/15 19:48:41</string>
+    </dict>
+  </lib>
+</glyph>

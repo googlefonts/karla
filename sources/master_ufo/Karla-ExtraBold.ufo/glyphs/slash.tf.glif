@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash.tf" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="176" y="-177" type="line"/>
+      <point x="498" y="-177" type="line"/>
+      <point x="1028" y="1519" type="line"/>
+      <point x="702" y="1519" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/05/15 19:48:41</string>
+    </dict>
+  </lib>
+</glyph>

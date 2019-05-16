@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="V" format="2">
+  <advance width="1125"/>
+  <unicode hex="0056"/>
+  <outline>
+    <contour>
+      <point x="552" y="166" type="line"/>
+      <point x="572" y="166" type="line"/>
+      <point x="202" y="1256" type="line"/>
+      <point x="36" y="1256" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="642" y="0" type="line"/>
+      <point x="1090" y="1256" type="line"/>
+      <point x="924" y="1256" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/05/14 17:00:04</string>
+    </dict>
+  </lib>
+</glyph>

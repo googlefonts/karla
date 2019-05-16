@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yen" format="2">
+  <advance width="1252.8"/>
+  <unicode hex="00A5"/>
+  <outline>
+    <contour>
+      <point x="454" y="0" type="line"/>
+      <point x="772" y="0" type="line"/>
+      <point x="772" y="557" type="line"/>
+      <point x="1242" y="1342" type="line"/>
+      <point x="867" y="1342" type="line"/>
+      <point x="592" y="839" type="line"/>
+      <point x="644" y="839" type="line"/>
+      <point x="386" y="1342" type="line"/>
+      <point x="10" y="1342" type="line"/>
+      <point x="454" y="557" type="line"/>
+    </contour>
+    <contour>
+      <point x="257" y="136" type="line"/>
+      <point x="978" y="136" type="line"/>
+      <point x="978" y="304" type="line"/>
+      <point x="257" y="304" type="line"/>
+    </contour>
+    <contour>
+      <point x="257" y="367" type="line"/>
+      <point x="978" y="367" type="line"/>
+      <point x="978" y="535" type="line"/>
+      <point x="257" y="535" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/05/14 17:00:04</string>
+    </dict>
+  </lib>
+</glyph>

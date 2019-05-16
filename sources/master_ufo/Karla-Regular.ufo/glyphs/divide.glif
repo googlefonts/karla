@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide" format="2">
+  <advance width="1031"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="166" y="452" type="line"/>
+      <point x="864" y="452" type="line"/>
+      <point x="864" y="588" type="line"/>
+      <point x="166" y="588" type="line"/>
+    </contour>
+    <contour>
+      <point x="514" y="140" type="curve" smooth="yes"/>
+      <point x="574" y="140"/>
+      <point x="618" y="184"/>
+      <point x="618" y="238" type="curve" smooth="yes"/>
+      <point x="618" y="292"/>
+      <point x="574" y="338"/>
+      <point x="514" y="338" type="curve" smooth="yes"/>
+      <point x="456" y="338"/>
+      <point x="412" y="292"/>
+      <point x="412" y="238" type="curve" smooth="yes"/>
+      <point x="412" y="184"/>
+      <point x="456" y="140"/>
+    </contour>
+    <contour>
+      <point x="514" y="700" type="curve" smooth="yes"/>
+      <point x="574" y="700"/>
+      <point x="618" y="742"/>
+      <point x="618" y="798" type="curve" smooth="yes"/>
+      <point x="618" y="852"/>
+      <point x="574" y="896"/>
+      <point x="514" y="896" type="curve" smooth="yes"/>
+      <point x="456" y="896"/>
+      <point x="412" y="852"/>
+      <point x="412" y="798" type="curve" smooth="yes"/>
+      <point x="412" y="742"/>
+      <point x="456" y="700"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/05/14 17:00:04</string>
+    </dict>
+  </lib>
+</glyph>

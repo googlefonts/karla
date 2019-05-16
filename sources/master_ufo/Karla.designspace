@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="200" maximum="800" default="400">
+      <map input="200" output="37"/>
+      <map input="300" output="58"/>
+      <map input="400" output="78"/>
+      <map input="500" output="95"/>
+      <map input="700" output="118"/>
+      <map input="800" output="160"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Karla-UltraLight.ufo" name="Karla UltraLight" familyname="Karla" stylename="UltraLight">
+      <location>
+        <dimension name="Weight" xvalue="37"/>
+      </location>
+    </source>
+    <source filename="Karla-Regular.ufo" name="Karla Regular" familyname="Karla" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="78"/>
+      </location>
+    </source>
+    <source filename="Karla-Bold.ufo" name="Karla Bold" familyname="Karla" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="118"/>
+      </location>
+    </source>
+    <source filename="Karla-ExtraBold.ufo" name="Karla ExtraBold" familyname="Karla" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="160"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Karla UltraLight" familyname="Karla" stylename="UltraLight" filename="../instance_ufo/Karla-UltraLight.ufo" stylemapfamilyname="Karla UltraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="37"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Karla Light" familyname="Karla" stylename="Light" filename="../instance_ufo/Karla-Light.ufo" stylemapfamilyname="Karla Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Karla Regular" familyname="Karla" stylename="Regular" filename="../instance_ufo/Karla-Regular.ufo" stylemapfamilyname="Karla" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="78"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Karla Medium" familyname="Karla" stylename="Medium" filename="../instance_ufo/Karla-Medium.ufo" stylemapfamilyname="Karla Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="95"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Karla Bold" familyname="Karla" stylename="Bold" filename="../instance_ufo/Karla-Bold.ufo" stylemapfamilyname="Karla" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="118"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Karla ExtraBold" familyname="Karla" stylename="ExtraBold" filename="../instance_ufo/Karla-ExtraBold.ufo" stylemapfamilyname="Karla ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="160"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

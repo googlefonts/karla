@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minus.tf" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="126" y="523" type="line"/>
+      <point x="126" y="463" type="line"/>
+      <point x="1074" y="463" type="line"/>
+      <point x="1074" y="523" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/05/14 17:00:04</string>
+    </dict>
+  </lib>
+</glyph>

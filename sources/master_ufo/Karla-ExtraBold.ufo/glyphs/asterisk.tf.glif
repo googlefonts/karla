@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterisk.tf" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="458" y="809" type="line"/>
+      <point x="602" y="1005" type="line"/>
+      <point x="739" y="809" type="line"/>
+      <point x="887" y="936" type="line"/>
+      <point x="723" y="1085" type="line"/>
+      <point x="927" y="1153" type="line"/>
+      <point x="854" y="1331" type="line"/>
+      <point x="671" y="1231" type="line"/>
+      <point x="701" y="1450" type="line"/>
+      <point x="499" y="1450" type="line"/>
+      <point x="529" y="1231" type="line"/>
+      <point x="346" y="1325" type="line"/>
+      <point x="273" y="1149" type="line"/>
+      <point x="483" y="1083" type="line"/>
+      <point x="319" y="936" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/05/15 19:48:41</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six" format="2">
+  <advance width="1286.45"/>
+  <unicode hex="0036"/>
+  <outline>
+    <contour>
+      <point x="688" y="-32" type="curve" smooth="yes"/>
+      <point x="995" y="-32"/>
+      <point x="1206" y="144"/>
+      <point x="1206" y="405" type="curve" smooth="yes"/>
+      <point x="1206" y="655"/>
+      <point x="1038" y="838"/>
+      <point x="778" y="838" type="curve" smooth="yes"/>
+      <point x="614" y="838"/>
+      <point x="456" y="770"/>
+      <point x="409" y="545" type="curve"/>
+      <point x="405" y="573"/>
+      <point x="403" y="602"/>
+      <point x="403" y="631" type="curve" smooth="yes"/>
+      <point x="403" y="908"/>
+      <point x="521" y="1083"/>
+      <point x="702" y="1083" type="curve" smooth="yes"/>
+      <point x="791" y="1083"/>
+      <point x="842" y="1031"/>
+      <point x="850" y="944" type="curve"/>
+      <point x="1188" y="944" type="line"/>
+      <point x="1189" y="1204"/>
+      <point x="983" y="1372"/>
+      <point x="690" y="1372" type="curve" smooth="yes"/>
+      <point x="337" y="1372"/>
+      <point x="86" y="1118"/>
+      <point x="86" y="647" type="curve" smooth="yes"/>
+      <point x="86" y="248"/>
+      <point x="337" y="-32"/>
+    </contour>
+    <contour>
+      <point x="688" y="259" type="curve" smooth="yes"/>
+      <point x="591" y="259"/>
+      <point x="504" y="327"/>
+      <point x="504" y="421" type="curve" smooth="yes"/>
+      <point x="504" y="524"/>
+      <point x="591" y="585"/>
+      <point x="688" y="585" type="curve" smooth="yes"/>
+      <point x="787" y="585"/>
+      <point x="878" y="524"/>
+      <point x="878" y="421" type="curve" smooth="yes"/>
+      <point x="878" y="327"/>
+      <point x="787" y="259"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/05/14 17:00:04</string>
+    </dict>
+  </lib>
+</glyph>
