@@ -14,19 +14,32 @@ thisFont="Karla" # must match the name in the font file, e.g. FiraCode-VF.ttf ne
 # cd sources
 
 echo "Generating Static fonts"
-# mkdir -p /fonts/ttfs
-# echo "Made fonts directory"
-fontmake -g Karla-Roman.glyphs -i -o ttf --output-dir /fonts/ttfs/
-echo "Made Roman"
-# fontmake -g Karla-Italic.glyphs -i -o ttf --output-dir ../fonts/ttfs/
-# echo "Made Italic"
 
-# echo "Generating VFs"
-# mkdir -p ../fonts/variable
-# fontmake -g Karla-Roman.glyphs -o variable --output-path ../fonts/variable/Karla-Roman-VF.ttf
-# fontmake -g Karla-Italic.glyphs -o variable --output-path ../fonts/variable/Karla-Italic-VF.ttf
+mkdir -p ./fonts/ttfs
+mkdir -p ./fonts/otfs
+mkdir -p ./fonts/variable
 
-# rm -rf master_ufo/ instance_ufo/
+echo "Made font directories"
+fontmake -g Karla-Roman.glyphs -i -o ttf --output-dir ./fonts/ttfs/
+echo "Made Roman ttfs"
+fontmake -g Karla-Italic.glyphs -i -o ttf --output-dir ./fonts/ttfs/
+echo "Made Italic ttfs"
+
+fontmake -g Karla-Roman.glyphs -i -o otf --output-dir ./fonts/otfs/
+echo "Made Roman otfs"
+fontmake -g Karla-Italic.glyphs -i -o otf --output-dir ./fonts/otfs/
+echo "Made Italic otfs"
+
+echo "Generating VFs"
+mkdir -p /fonts/variable
+fontmake -g Karla-Roman.glyphs -o variable --output-path ./fonts/variable/Karla-Roman-VF.ttf
+fontmake -g Karla-Italic.glyphs -o variable --output-path ./fonts/variable/Karla-Italic-VF.ttf
+
+echo "Removing Build UFOS"
+
+rm -rf master_ufo/ instance_ufo/
+
+echo "Build UFOS Removed"
 
 # echo "Post processing"
 
