@@ -1,5 +1,17 @@
 {
 .appVersion = "1230";
+classes = (
+{
+automatic = 1;
+code = "a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis dotlessi igrave iacute icircumflex idieresis atilde ntilde otilde Atilde Ntilde Otilde";
+name = AllLetters;
+},
+{
+automatic = 1;
+code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z quotesingle apostrophe quoteleft quoteright parenleft parenright plus minus equal zero one two three four five six seven eight nine zero.propold one.propold two.propold three.propold four.propold five.propold six.propold seven.propold eight.propold nine.propold dollar question sterling grave acute agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute circumflex acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex tilde ampersand at dieresis adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis dotlessi igrave iacute icircumflex idieresis rupeesymbol less greater quotedbl numbersign asterisk slash percent backslash bar bracketleft bracketright asciicircum underscore braceleft braceright asciitilde atilde ntilde otilde Atilde Ntilde Otilde zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf cent currency euro yen cent.tf currency.tf dollar.tf euro.tf rupee.tf sterling.tf yen.tf multiply divide notequal greaterequal lessequal plusminus approxequal plus.tf minus.tf multiply.tf divide.tf equal.tf notequal.tf greater.tf less.tf greaterequal.tf lessequal.tf plusminus.tf approxequal.tf asciitilde.tf asciicircum.tf percent.tf";
+name = All;
+}
+);
 copyright = "Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.";
 customParameters = (
 {
@@ -221,12 +233,12 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012sub period.tf by period;\012sub comma.tf by comma;\012sub colon.tf by colon;\012sub semicolon.tf by semicolon;\012sub exclam.tf by exclam;\012sub question.tf by question;\012sub asterisk.tf by asterisk;\012sub numbersign.tf by numbersign;\012sub slash.tf by slash;\012sub backslash.tf by backslash;\012sub parenleft.tf by parenleft;\012sub parenright.tf by parenright;\012sub braceleft.tf by braceleft;\012sub braceright.tf by braceright;\012sub bracketleft.tf by bracketleft;\012sub bracketright.tf by bracketright;\012sub hyphen.tf by hyphen;\012sub underscore.tf by underscore;\012sub quotedbl.tf by quotedbl;\012sub cent.tf by cent;\012sub currency.tf by currency;\012sub dollar.tf by dollar;\012sub euro.tf by euro;\012sub sterling.tf by sterling;\012sub yen.tf by yen;\012sub plus.tf by plus;\012sub minus.tf by minus;\012sub multiply.tf by multiply;\012sub divide.tf by divide;\012sub equal.tf by equal;\012sub notequal.tf by notequal;\012sub greater.tf by greater;\012sub less.tf by less;\012sub greaterequal.tf by greaterequal;\012sub lessequal.tf by lessequal;\012sub plusminus.tf by plusminus;\012sub approxequal.tf by approxequal;\012sub asciitilde.tf by asciitilde;\012sub asciicircum.tf by asciicircum;\012sub percent.tf by percent;\012";
+code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012sub cent.tf by cent;\012sub currency.tf by currency;\012sub dollar.tf by dollar;\012sub euro.tf by euro;\012sub sterling.tf by sterling;\012sub yen.tf by yen;\012sub plus.tf by plus;\012sub minus.tf by minus;\012sub multiply.tf by multiply;\012sub divide.tf by divide;\012sub equal.tf by equal;\012sub notequal.tf by notequal;\012sub greater.tf by greater;\012sub less.tf by less;\012sub greaterequal.tf by greaterequal;\012sub lessequal.tf by lessequal;\012sub plusminus.tf by plusminus;\012sub approxequal.tf by approxequal;\012sub asciitilde.tf by asciitilde;\012sub asciicircum.tf by asciicircum;\012sub percent.tf by percent;\012";
 name = pnum;
 },
 {
 automatic = 1;
-code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012sub period by period.tf;\012sub comma by comma.tf;\012sub colon by colon.tf;\012sub semicolon by semicolon.tf;\012sub exclam by exclam.tf;\012sub question by question.tf;\012sub asterisk by asterisk.tf;\012sub numbersign by numbersign.tf;\012sub slash by slash.tf;\012sub backslash by backslash.tf;\012sub parenleft by parenleft.tf;\012sub parenright by parenright.tf;\012sub braceleft by braceleft.tf;\012sub braceright by braceright.tf;\012sub bracketleft by bracketleft.tf;\012sub bracketright by bracketright.tf;\012sub hyphen by hyphen.tf;\012sub underscore by underscore.tf;\012sub quotedbl by quotedbl.tf;\012sub cent by cent.tf;\012sub currency by currency.tf;\012sub dollar by dollar.tf;\012sub euro by euro.tf;\012sub sterling by sterling.tf;\012sub yen by yen.tf;\012sub plus by plus.tf;\012sub minus by minus.tf;\012sub multiply by multiply.tf;\012sub divide by divide.tf;\012sub equal by equal.tf;\012sub notequal by notequal.tf;\012sub greater by greater.tf;\012sub less by less.tf;\012sub greaterequal by greaterequal.tf;\012sub lessequal by lessequal.tf;\012sub plusminus by plusminus.tf;\012sub approxequal by approxequal.tf;\012sub asciitilde by asciitilde.tf;\012sub asciicircum by asciicircum.tf;\012sub percent by percent.tf;\012";
+code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012sub cent by cent.tf;\012sub currency by currency.tf;\012sub dollar by dollar.tf;\012sub euro by euro.tf;\012sub sterling by sterling.tf;\012sub yen by yen.tf;\012sub plus by plus.tf;\012sub minus by minus.tf;\012sub multiply by multiply.tf;\012sub divide by divide.tf;\012sub equal by equal.tf;\012sub notequal by notequal.tf;\012sub greater by greater.tf;\012sub less by less.tf;\012sub greaterequal by greaterequal.tf;\012sub lessequal by lessequal.tf;\012sub plusminus by plusminus.tf;\012sub approxequal by approxequal.tf;\012sub asciitilde by asciitilde.tf;\012sub asciicircum by asciicircum.tf;\012sub percent by percent.tf;\012";
 name = tnum;
 }
 );
@@ -245,11 +257,11 @@ custom = Ultra;
 customParameters = (
 {
 name = typoAscender;
-value = 1834;
+value = 1924;
 },
 {
 name = typoDescender;
-value = -504;
+value = -525;
 },
 {
 name = typoLineGap;
@@ -261,19 +273,19 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1834;
+value = 1924;
 },
 {
 name = hheaDescender;
-value = -504;
+value = -525;
 },
 {
 name = winDescent;
-value = 504;
+value = 525;
 },
 {
 name = winAscent;
-value = 1834;
+value = 1924;
 }
 );
 descender = -504;
@@ -297,11 +309,11 @@ custom = Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 1834;
+value = 1924;
 },
 {
 name = typoDescender;
-value = -504;
+value = -525;
 },
 {
 name = typoLineGap;
@@ -313,19 +325,19 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1834;
+value = 1924;
 },
 {
 name = hheaDescender;
-value = -504;
+value = -525;
 },
 {
 name = winDescent;
-value = 504;
+value = 525;
 },
 {
 name = winAscent;
-value = 1834;
+value = 1924;
 }
 );
 descender = -504;
@@ -347,11 +359,11 @@ custom = Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 1834;
+value = 1924;
 },
 {
 name = typoDescender;
-value = -504;
+value = -525;
 },
 {
 name = typoLineGap;
@@ -363,19 +375,19 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1834;
+value = 1924;
 },
 {
 name = hheaDescender;
-value = -504;
+value = -525;
 },
 {
 name = winDescent;
-value = 504;
+value = 525;
 },
 {
 name = winAscent;
-value = 1834;
+value = 1924;
 }
 );
 descender = -504;
@@ -399,11 +411,11 @@ custom = "Extra Italic";
 customParameters = (
 {
 name = typoAscender;
-value = 1834;
+value = 1924;
 },
 {
 name = typoDescender;
-value = -504;
+value = -525;
 },
 {
 name = typoLineGap;
@@ -415,19 +427,19 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1834;
+value = 1924;
 },
 {
 name = hheaDescender;
-value = -504;
+value = -525;
 },
 {
 name = winDescent;
-value = 504;
+value = 525;
 },
 {
 name = winAscent;
-value = 1834;
+value = 1924;
 }
 );
 descender = -504;
