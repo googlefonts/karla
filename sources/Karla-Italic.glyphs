@@ -1,5 +1,8 @@
 {
 .appVersion = "1230";
+DisplayStrings = (
+NK
+);
 classes = (
 {
 automatic = 1;
@@ -9009,7 +9012,7 @@ unicode = 004D;
 },
 {
 glyphname = N;
-lastChange = "2019-05-15 14:38:49 +0000";
+lastChange = "2019-05-20 14:11:24 +0000";
 layers = (
 {
 anchors = (
@@ -9024,12 +9027,14 @@ paths = (
 closed = 1;
 nodes = (
 "322 0 LINE",
-"418 1026 LINE",
+"422 1071 LINE",
+"399 1067 LINE",
 "892 0 LINE",
 "1052 0 LINE",
 "1170 1258 LINE",
 "1028 1258 LINE",
-"930 250 LINE",
+"926 205 LINE",
+"949 209 LINE",
 "466 1258 LINE",
 "296 1258 LINE",
 "178 0 LINE"
@@ -9051,12 +9056,14 @@ paths = (
 closed = 1;
 nodes = (
 "376 0 LINE",
-"466 952 LINE",
+"470 997 LINE",
+"447 993 LINE",
 "908 0 LINE",
 "1124 0 LINE",
 "1246 1298 LINE",
 "1034 1298 LINE",
-"946 378 LINE",
+"942 333 LINE",
+"965 337 LINE",
 "518 1298 LINE",
 "286 1298 LINE",
 "164 0 LINE"
@@ -9078,13 +9085,15 @@ paths = (
 closed = 1;
 nodes = (
 "263 0 LINE",
-"366 1106 LINE",
-"875 0 LINE",
+"370 1151 LINE",
+"350 1155 LINE",
+"882 0 LINE",
 "974 0 LINE",
 "1087 1215 LINE",
 "1021 1215 LINE",
-"913 111 LINE",
-"410 1215 LINE",
+"909 66 LINE",
+"928 62 LINE",
+"402 1215 LINE",
 "307 1215 LINE",
 "193 0 LINE"
 );
@@ -9099,19 +9108,27 @@ name = above;
 position = "{614, 1270}";
 }
 );
+guideLines = (
+{
+angle = 264.6099;
+position = "{1041, 1346}";
+}
+);
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
 paths = (
 {
 closed = 1;
 nodes = (
 "441 0 LINE",
-"524 863 LINE",
-"927 0 LINE",
+"528 908 LINE",
+"471 911 LINE",
+"923 0 LINE",
 "1210 0 LINE",
 "1337 1346 LINE",
 "1041 1346 LINE",
-"965 532 LINE",
-"580 1346 LINE",
+"959 473 LINE",
+"1012 470 LINE",
+"584 1346 LINE",
 "274 1346 LINE",
 "147 0 LINE"
 );
