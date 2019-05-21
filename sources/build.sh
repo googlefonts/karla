@@ -87,6 +87,7 @@ for file in $statics; do
     echo "fix DSIG in " ${file}
     gftools fix-dsig --autofix ${file}
 
+
     echo "TTFautohint " ${file}
     # autohint with detailed info
     hintedFile=${file/".ttf"/"-hinted.ttf"}
@@ -95,8 +96,17 @@ for file in $statics; do
     rm -rf ${hintedFile}
 done
 
+# # ============================================================================
+# # Fix Hinting ================================================================
 
-# ============================================================================
+statics=$(ls fonts/ttfs/*.ttf)
+echo hello
+for file in $statics; do 
+	echo "fix hinting in " ${file}
+    gftools fix-hinting ${file}
+done
+
+
 # Build woff2 fonts ==========================================================
 
 # requires https://github.com/bramstein/homebrew-webfonttools
