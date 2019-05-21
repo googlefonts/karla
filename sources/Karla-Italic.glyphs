@@ -17,15 +17,15 @@ name = AllLetters;
 },
 {
 automatic = 1;
-code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z quotesingle apostrophe quoteleft quoteright parenleft parenright plus minus equal zero one two three four five six seven eight nine zero.propold one.propold two.propold three.propold four.propold five.propold six.propold seven.propold eight.propold nine.propold dollar question sterling grave acute agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute circumflex acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex tilde ampersand at dieresis adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis dotlessi igrave iacute icircumflex idieresis less greater quotedbl numbersign asterisk slash percent backslash bar bracketleft bracketright asciicircum underscore braceleft braceright asciitilde atilde ntilde otilde Atilde Ntilde Otilde zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf cent currency euro rupee yen cent.tf currency.tf dollar.tf euro.tf rupee.tf sterling.tf yen.tf multiply divide notequal greaterequal lessequal plusminus approxequal plus.tf minus.tf multiply.tf divide.tf equal.tf notequal.tf greater.tf less.tf greaterequal.tf lessequal.tf plusminus.tf approxequal.tf asciitilde.tf asciicircum.tf percent.tf";
+code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z quotesingle apostrophe quoteleft quoteright parenleft parenright plus minus equal zero one two three four five six seven eight nine zero.propold one.propold two.propold three.propold four.propold five.propold six.propold seven.propold eight.propold nine.propold dollar question sterling grave acute agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute circumflex acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex tilde ampersand at dieresis adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis dotlessi igrave iacute icircumflex idieresis less greater quotedbl numbersign asterisk slash percent backslash bar bracketleft bracketright asciicircum underscore braceleft braceright asciitilde atilde ntilde otilde Atilde Ntilde Otilde zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf nbspace cent currency euro rupee yen cent.tf currency.tf dollar.tf euro.tf rupee.tf sterling.tf yen.tf multiply divide notequal greaterequal lessequal plusminus approxequal plus.tf minus.tf multiply.tf divide.tf equal.tf notequal.tf greater.tf less.tf greaterequal.tf lessequal.tf plusminus.tf approxequal.tf asciitilde.tf asciicircum.tf percent.tf";
 name = All;
 }
 );
-copyright = "Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.";
+copyright = "Copyright 2019 The Karla Project Jonathan Pinhorn,bghryct  https://github.com/bghryct/karmilla";
 customParameters = (
 {
 name = trademark;
-value = "Karla Latin is a trademark of Jonathan Pinhorn.";
+value = "Karla is a trademark of Jonathan Pinhorn";
 },
 {
 name = panose;
@@ -223,7 +223,8 @@ name = vendorID;
 value = "0000";
 }
 );
-date = "2019-04-18 01:42:35 +0000";
+date = "2019-05-21 21:32:11 +0000";
+designer = "Jonathan Pinhorn";
 disablesAutomaticAlignment = 1;
 familyName = Karla;
 featurePrefixes = (
@@ -261,7 +262,7 @@ alignmentZones = (
 );
 ascender = 1834;
 capHeight = 1215;
-custom = Ultra;
+custom = Extra;
 customParameters = (
 {
 name = typoAscender;
@@ -298,7 +299,8 @@ value = 1924;
 );
 descender = -504;
 id = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
-name = UltraLight;
+italicAngle = 8;
+name = ExtraLight;
 weight = Light;
 weightValue = 33;
 xHeight = 939;
@@ -350,6 +352,7 @@ value = 1924;
 );
 descender = -504;
 id = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
+italicAngle = 8;
 name = "ExtraBold Italic";
 weight = Bold;
 weightValue = 148;
@@ -18081,8 +18084,8 @@ interpolationWeight = 33;
 instanceInterpolations = {
 "AD226DB4-BE97-401A-8A1F-FC26A063DFB1" = 1;
 };
-name = "UltraLight Italic";
-weightClass = UltraLight;
+name = "ExtraLight Italic";
+weightClass = ExtraLight;
 },
 {
 interpolationWeight = 52;
@@ -18660,8 +18663,8 @@ Y = -74;
 };
 };
 };
-manufacturer = "Jonathan Pinhorn";
+manufacturer = "Google Fonts";
 unitsPerEm = 2000;
-versionMajor = 1;
-versionMinor = 1;
+versionMajor = 2;
+versionMinor = 0;
 }

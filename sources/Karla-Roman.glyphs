@@ -10,7 +10,8 @@ a,
 "/.notdef",
 "/.notdef",
 "/.notdef",
-"  "
+"  ",
+"/rupee.tf"
 );
 classes = (
 {
@@ -20,15 +21,15 @@ name = AllLetters;
 },
 {
 automatic = 1;
-code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z quotesingle apostrophe quoteleft quoteright parenleft parenright plus minus equal zero one two three four five six seven eight nine dollar question sterling grave acute agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute circumflex acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex tilde ampersand at dieresis adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis dotlessi igrave iacute icircumflex idieresis less greater quotedbl numbersign asterisk slash percent backslash bar bracketleft bracketright asciicircum underscore braceleft braceright asciitilde atilde ntilde otilde Atilde Ntilde Otilde zero.propold one.propold two.propold three.propold four.propold five.propold six.propold seven.propold eight.propold nine.propold zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf nbspace cent currency euro rupee yen cent.tf currency.tf dollar.tf euro.tf sterling.tf yen.tf multiply divide notequal greaterequal lessequal plusminus approxequal plus.tf minus.tf multiply.tf divide.tf equal.tf notequal.tf greater.tf less.tf greaterequal.tf lessequal.tf plusminus.tf approxequal.tf asciitilde.tf asciicircum.tf percent.tf";
+code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z quotesingle apostrophe quoteleft quoteright parenleft parenright plus minus equal zero one two three four five six seven eight nine dollar question sterling grave acute agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute circumflex acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex tilde ampersand at dieresis adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis dotlessi igrave iacute icircumflex idieresis less greater quotedbl numbersign asterisk slash percent backslash bar bracketleft bracketright asciicircum underscore braceleft braceright asciitilde atilde ntilde otilde Atilde Ntilde Otilde zero.propold one.propold two.propold three.propold four.propold five.propold six.propold seven.propold eight.propold nine.propold zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf nbspace cent currency euro rupee yen cent.tf currency.tf dollar.tf euro.tf rupee.tf sterling.tf yen.tf multiply divide notequal greaterequal lessequal plusminus approxequal plus.tf minus.tf multiply.tf divide.tf equal.tf notequal.tf greater.tf less.tf greaterequal.tf lessequal.tf plusminus.tf approxequal.tf asciitilde.tf asciicircum.tf percent.tf";
 name = All;
 }
 );
-copyright = "Copyright (c) 2011 by . All rights reserved.";
+copyright = "Copyright 2019 The Karla Project Jonathan Pinhorn,bghryct  https://github.com/bghryct/karmilla";
 customParameters = (
 {
 name = trademark;
-value = "Karla Latin is a trademark of .";
+value = "Karla is a trademark of Jonathan Pinhorn";
 },
 {
 name = panose;
@@ -224,13 +225,10 @@ Otilde
 {
 name = vendorID;
 value = "0000";
-},
-{
-name = "Name Table Entry";
-value = "New Value";
 }
 );
-date = "2019-04-18 01:42:33 +0000";
+date = "2019-05-21 21:32:07 +0000";
+designer = "Jonathan Pinhorn";
 disablesAutomaticAlignment = 1;
 familyName = Karla;
 featurePrefixes = (
@@ -248,12 +246,12 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012sub cent.tf by cent;\012sub currency.tf by currency;\012sub dollar.tf by dollar;\012sub euro.tf by euro;\012sub sterling.tf by sterling;\012sub yen.tf by yen;\012sub plus.tf by plus;\012sub minus.tf by minus;\012sub multiply.tf by multiply;\012sub divide.tf by divide;\012sub equal.tf by equal;\012sub notequal.tf by notequal;\012sub greater.tf by greater;\012sub less.tf by less;\012sub greaterequal.tf by greaterequal;\012sub lessequal.tf by lessequal;\012sub plusminus.tf by plusminus;\012sub approxequal.tf by approxequal;\012sub asciitilde.tf by asciitilde;\012sub asciicircum.tf by asciicircum;\012sub percent.tf by percent;\012";
+code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012sub cent.tf by cent;\012sub currency.tf by currency;\012sub dollar.tf by dollar;\012sub euro.tf by euro;\012sub rupee.tf by rupee;\012sub sterling.tf by sterling;\012sub yen.tf by yen;\012sub plus.tf by plus;\012sub minus.tf by minus;\012sub multiply.tf by multiply;\012sub divide.tf by divide;\012sub equal.tf by equal;\012sub notequal.tf by notequal;\012sub greater.tf by greater;\012sub less.tf by less;\012sub greaterequal.tf by greaterequal;\012sub lessequal.tf by lessequal;\012sub plusminus.tf by plusminus;\012sub approxequal.tf by approxequal;\012sub asciitilde.tf by asciitilde;\012sub asciicircum.tf by asciicircum;\012sub percent.tf by percent;\012";
 name = pnum;
 },
 {
 automatic = 1;
-code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012sub cent by cent.tf;\012sub currency by currency.tf;\012sub dollar by dollar.tf;\012sub euro by euro.tf;\012sub sterling by sterling.tf;\012sub yen by yen.tf;\012sub plus by plus.tf;\012sub minus by minus.tf;\012sub multiply by multiply.tf;\012sub divide by divide.tf;\012sub equal by equal.tf;\012sub notequal by notequal.tf;\012sub greater by greater.tf;\012sub less by less.tf;\012sub greaterequal by greaterequal.tf;\012sub lessequal by lessequal.tf;\012sub plusminus by plusminus.tf;\012sub approxequal by approxequal.tf;\012sub asciitilde by asciitilde.tf;\012sub asciicircum by asciicircum.tf;\012sub percent by percent.tf;\012";
+code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012sub cent by cent.tf;\012sub currency by currency.tf;\012sub dollar by dollar.tf;\012sub euro by euro.tf;\012sub rupee by rupee.tf;\012sub sterling by sterling.tf;\012sub yen by yen.tf;\012sub plus by plus.tf;\012sub minus by minus.tf;\012sub multiply by multiply.tf;\012sub divide by divide.tf;\012sub equal by equal.tf;\012sub notequal by notequal.tf;\012sub greater by greater.tf;\012sub less by less.tf;\012sub greaterequal by greaterequal.tf;\012sub lessequal by lessequal.tf;\012sub plusminus by plusminus.tf;\012sub approxequal by approxequal.tf;\012sub asciitilde by asciitilde.tf;\012sub asciicircum by asciicircum.tf;\012sub percent by percent.tf;\012";
 name = tnum;
 }
 );
@@ -268,7 +266,7 @@ alignmentZones = (
 );
 ascender = 1834;
 capHeight = 1213;
-custom = Ultra;
+custom = Extra;
 customParameters = (
 {
 name = typoDescender;
@@ -305,7 +303,7 @@ value = 1924;
 );
 descender = -504;
 id = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
-name = UltraLight;
+name = ExtraLight;
 userData = {
 GSOffsetHorizontal = -5;
 GSOffsetMakeStroke = 1;
@@ -358,7 +356,7 @@ value = 525;
 },
 {
 name = winAscent;
-value = 1834;
+value = 1924;
 }
 );
 descender = -504;
@@ -13803,6 +13801,32 @@ width = 1200;
 );
 },
 {
+glyphname = rupee.tf;
+lastChange = "2019-05-21 21:39:38 +0000";
+layers = (
+{
+components = (
+{
+name = rupee;
+transform = "{1, 0, 0, 1, 32, 0}";
+}
+);
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 1200;
+},
+{
+components = (
+{
+name = rupee;
+transform = "{1, 0, 0, 1, -60, 0}";
+}
+);
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 1200;
+}
+);
+},
+{
 glyphname = sterling.tf;
 lastChange = "2019-05-14 17:00:04 +0000";
 layers = (
@@ -15318,8 +15342,8 @@ interpolationWeight = 37;
 instanceInterpolations = {
 "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF" = 1;
 };
-name = UltraLight;
-weightClass = UltraLight;
+name = ExtraLight;
+weightClass = ExtraLight;
 },
 {
 interpolationWeight = 58;
@@ -15892,6 +15916,6 @@ Y = -49;
 };
 };
 unitsPerEm = 2000;
-versionMajor = 1;
-versionMinor = 1;
+versionMajor = 2;
+versionMinor = 0;
 }

@@ -106,6 +106,20 @@ for file in $statics; do
     gftools fix-hinting ${file}
 done
 
+# # ============================================================================
+# # Fix Others this might be unnecessary?  =====================================
+
+statics=$(ls fonts/ttfs/*.ttf)
+echo hello
+for file in $statics; do 
+    gftools fix-ascii-fontmetadata ${file}
+    gftools fix-cmap ${file}
+    gftools fix-dsig ${file}
+    gftools fix-familymetadata ${file}
+    gftools fix-fsselection ${file}
+    gftools fix-fstype ${file}
+    gftools fix-gasp ${file}
+done
 
 # Build woff2 fonts ==========================================================
 
