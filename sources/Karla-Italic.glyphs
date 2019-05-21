@@ -3,7 +3,10 @@
 DisplayStrings = (
 "/approxequal.tf",
 "/approxequal",
-"/zero.propold/one.propold/two.propold/three.propold/four.propold/five.propold/six.propold/seven.propold/eight.propold/nine.propold"
+"/zero.propold/one.propold/two.propold/three.propold/four.propold/five.propold/six.propold/seven.propold/eight.propold/nine.propold",
+"/.notdef",
+"/.notdef",
+"/.notdef"
 );
 classes = (
 {
@@ -19,10 +22,6 @@ name = All;
 );
 copyright = "Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.";
 customParameters = (
-{
-name = description;
-value = "Copyright (c) 2011 by Jonathan Pinhorn. All rights reserved.";
-},
 {
 name = trademark;
 value = "Karla Latin is a trademark of Jonathan Pinhorn.";
@@ -16263,15 +16262,99 @@ width = 1200;
 },
 {
 glyphname = .notdef;
-lastChange = "2019-05-15 14:38:49 +0000";
+lastChange = "2019-05-21 14:05:10 +0000";
 layers = (
 {
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
-width = 926.51429;
+paths = (
+{
+closed = 1;
+nodes = (
+"10 5 LINE",
+"1021 5 LINE",
+"1021 1645 LINE",
+"10 1645 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1031 1655 LINE",
+"1031 -5 LINE",
+"0 -5 LINE",
+"0 1655 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"700 531 OFFCURVE",
+"380 1038 OFFCURVE",
+"10 1645 CURVE",
+"450 1067 OFFCURVE",
+"719 541 OFFCURVE",
+"1021 5 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"312 541 OFFCURVE",
+"581 1067 OFFCURVE",
+"1021 1645 CURVE",
+"651 1038 OFFCURVE",
+"331 531 OFFCURVE",
+"10 5 CURVE"
+);
+}
+);
+width = 1031;
 },
 {
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
-width = 1136.8;
+paths = (
+{
+closed = 1;
+nodes = (
+"10 5 LINE",
+"1021 5 LINE",
+"1021 1645 LINE",
+"10 1645 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1031 1655 LINE",
+"1031 -5 LINE",
+"0 -5 LINE",
+"0 1655 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"700 331 OFFCURVE",
+"380 1038 OFFCURVE",
+"10 1645 CURVE",
+"450 1067 OFFCURVE",
+"719 341 OFFCURVE",
+"1021 5 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"312 341 OFFCURVE",
+"581 1067 OFFCURVE",
+"1021 1645 CURVE",
+"651 1038 OFFCURVE",
+"331 331 OFFCURVE",
+"10 5 CURVE"
+);
+}
+);
+width = 1031;
 }
 );
 },

@@ -4,7 +4,12 @@ DisplayStrings = (
 N,
 a,
 "/approxequal/approxequal.tf",
-"/zero.propold/one.propold/two.propold/three.propold/four.propold/five.propold/six.propold/seven.propold/eight.propold/nine.propold"
+"/zero.propold/one.propold/two.propold/three.propold/four.propold/five.propold/six.propold/seven.propold/eight.propold/nine.propold",
+"/.notdef",
+"/.notdef",
+"/.notdef",
+"/.notdef",
+"/.notdef"
 );
 classes = (
 {
@@ -20,10 +25,6 @@ name = All;
 );
 copyright = "Copyright (c) 2011 by . All rights reserved.";
 customParameters = (
-{
-name = description;
-value = "Copyright (c) 2011 by . All rights reserved.";
-},
 {
 name = trademark;
 value = "Karla Latin is a trademark of .";
@@ -304,6 +305,12 @@ value = 1924;
 descender = -504;
 id = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
 name = UltraLight;
+userData = {
+GSOffsetHorizontal = -5;
+GSOffsetMakeStroke = 1;
+GSOffsetProportional = 1;
+GSOffsetVertical = -5;
+};
 weight = Light;
 weightValue = 37;
 xHeight = 940;
@@ -12688,15 +12695,99 @@ width = 1200;
 },
 {
 glyphname = .notdef;
-lastChange = "2019-05-14 17:00:04 +0000";
+lastChange = "2019-05-21 14:05:32 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
-width = 1031.2;
+paths = (
+{
+closed = 1;
+nodes = (
+"10 5 LINE",
+"1021 5 LINE",
+"1021 1645 LINE",
+"10 1645 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1031 1655 LINE",
+"1031 -5 LINE",
+"0 -5 LINE",
+"0 1655 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"700 531 OFFCURVE",
+"380 1038 OFFCURVE",
+"10 1645 CURVE",
+"450 1067 OFFCURVE",
+"719 541 OFFCURVE",
+"1021 5 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"312 541 OFFCURVE",
+"581 1067 OFFCURVE",
+"1021 1645 CURVE",
+"651 1038 OFFCURVE",
+"331 531 OFFCURVE",
+"10 5 CURVE"
+);
+}
+);
+width = 1031;
 },
 {
 layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
-width = 1252.6;
+paths = (
+{
+closed = 1;
+nodes = (
+"10 5 LINE",
+"1021 5 LINE",
+"1021 1645 LINE",
+"10 1645 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1031 1655 LINE",
+"1031 -5 LINE",
+"0 -5 LINE",
+"0 1655 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"700 331 OFFCURVE",
+"380 1038 OFFCURVE",
+"10 1645 CURVE",
+"450 1067 OFFCURVE",
+"719 341 OFFCURVE",
+"1021 5 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"312 341 OFFCURVE",
+"581 1067 OFFCURVE",
+"1021 1645 CURVE",
+"651 1038 OFFCURVE",
+"331 331 OFFCURVE",
+"10 5 CURVE"
+);
+}
+);
+width = 1031;
 }
 );
 },
