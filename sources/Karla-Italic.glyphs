@@ -6,7 +6,8 @@ DisplayStrings = (
 "/zero.propold/one.propold/two.propold/three.propold/four.propold/five.propold/six.propold/seven.propold/eight.propold/nine.propold",
 "/.notdef",
 "/.notdef",
-"/.notdef"
+"/.notdef",
+" "
 );
 classes = (
 {
@@ -16259,6 +16260,21 @@ layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
 width = 1200;
 }
 );
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
+width = 398;
+},
+{
+layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
+width = 490;
+}
+);
+widthMetricsKey = space;
+unicode = 00A0;
 },
 {
 glyphname = .notdef;

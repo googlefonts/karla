@@ -9,7 +9,8 @@ a,
 "/.notdef",
 "/.notdef",
 "/.notdef",
-"/.notdef"
+"/.notdef",
+"  "
 );
 classes = (
 {
@@ -19,7 +20,7 @@ name = AllLetters;
 },
 {
 automatic = 1;
-code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z quotesingle apostrophe quoteleft quoteright parenleft parenright plus minus equal zero one two three four five six seven eight nine dollar question sterling grave acute agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute circumflex acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex tilde ampersand at dieresis adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis dotlessi igrave iacute icircumflex idieresis less greater quotedbl numbersign asterisk slash percent backslash bar bracketleft bracketright asciicircum underscore braceleft braceright asciitilde atilde ntilde otilde Atilde Ntilde Otilde zero.propold one.propold two.propold three.propold four.propold five.propold six.propold seven.propold eight.propold nine.propold zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf cent currency euro rupee yen cent.tf currency.tf dollar.tf euro.tf sterling.tf yen.tf multiply divide notequal greaterequal lessequal plusminus approxequal plus.tf minus.tf multiply.tf divide.tf equal.tf notequal.tf greater.tf less.tf greaterequal.tf lessequal.tf plusminus.tf approxequal.tf asciitilde.tf asciicircum.tf percent.tf";
+code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z quotesingle apostrophe quoteleft quoteright parenleft parenright plus minus equal zero one two three four five six seven eight nine dollar question sterling grave acute agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute circumflex acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex tilde ampersand at dieresis adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis dotlessi igrave iacute icircumflex idieresis less greater quotedbl numbersign asterisk slash percent backslash bar bracketleft bracketright asciicircum underscore braceleft braceright asciitilde atilde ntilde otilde Atilde Ntilde Otilde zero.propold one.propold two.propold three.propold four.propold five.propold six.propold seven.propold eight.propold nine.propold zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf nbspace cent currency euro rupee yen cent.tf currency.tf dollar.tf euro.tf sterling.tf yen.tf multiply divide notequal greaterequal lessequal plusminus approxequal plus.tf minus.tf multiply.tf divide.tf equal.tf notequal.tf greater.tf less.tf greaterequal.tf lessequal.tf plusminus.tf approxequal.tf asciitilde.tf asciicircum.tf percent.tf";
 name = All;
 }
 );
@@ -398,15 +399,15 @@ unicode = 000D;
 },
 {
 glyphname = space;
-lastChange = "2019-05-14 17:00:04 +0000";
+lastChange = "2019-05-21 20:11:25 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
-width = 443.225;
+width = 443;
 },
 {
 layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
-width = 538.55;
+width = 539;
 }
 );
 unicode = 0020;
@@ -12692,6 +12693,21 @@ layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
 width = 1200;
 }
 );
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 443;
+},
+{
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 539;
+}
+);
+widthMetricsKey = space;
+unicode = 00A0;
 },
 {
 glyphname = .notdef;
