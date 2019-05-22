@@ -110,15 +110,25 @@ done
 # # Fix Others this might be unnecessary?  =====================================
 
 statics=$(ls fonts/ttfs/*.ttf)
-echo hello
+echo Making other fixes
 for file in $statics; do 
-    gftools fix-ascii-fontmetadata ${file}
-    gftools fix-cmap ${file}
-    gftools fix-dsig ${file}
+    # gftools fix-ascii-fontmetadata ${file}
+    # gftools fix-cmap ${file}
+   
     gftools fix-familymetadata ${file}
-    gftools fix-fsselection ${file}
-    gftools fix-fstype ${file}
-    gftools fix-gasp ${file}
+    # # gftools fix-fsselection ${file}
+    # # gftools fix-fstype ${file}
+    # gftools fix-gasp ${file}
+done
+
+
+# # ============================================================================
+# # Fix DSIG  this might be unnecessary?   =====================================
+
+statics=$(ls fonts/ttfs/*.ttf)
+echo Making DSIG fix
+for file in $statics; do 
+    gftools fix-dsig ${file}
 done
 
 # Build woff2 fonts ==========================================================

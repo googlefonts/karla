@@ -15378,6 +15378,7 @@ instanceInterpolations = {
 "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF" = 0.34146;
 };
 isBold = 1;
+linkStyle = Regular;
 name = Bold;
 weightClass = Bold;
 },
@@ -15386,7 +15387,6 @@ interpolationWeight = 160;
 instanceInterpolations = {
 "54E4F05E-05D2-4398-A473-3C5492C75DBF" = 1;
 };
-linkStyle = Regular;
 name = ExtraBold;
 weightClass = ExtraBold;
 }

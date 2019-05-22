@@ -18113,8 +18113,6 @@ instanceInterpolations = {
 "2146CDF3-509B-498B-BCC4-8BA41979C9D7" = 0.47826;
 "AD226DB4-BE97-401A-8A1F-FC26A063DFB1" = 0.52174;
 };
-isItalic = 1;
-linkStyle = Medium;
 name = "Medium Italic";
 weightClass = Medium;
 },
@@ -18125,8 +18123,7 @@ instanceInterpolations = {
 "AD226DB4-BE97-401A-8A1F-FC26A063DFB1" = 0.36522;
 };
 isBold = 1;
-isItalic = 1;
-linkStyle = Regular;
+linkStyle = Italic;
 name = "Bold Italic";
 weightClass = Bold;
 },
