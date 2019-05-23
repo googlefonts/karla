@@ -100,11 +100,12 @@ done
 # # Fix Hinting ================================================================
 
 statics=$(ls fonts/ttfs/*.ttf)
-echo hello
+echo Hi Mirko I am trying to fix the hinting
 for file in $statics; do 
 	echo "fix hinting in " ${file}
-    gftools fix-hinting ${file}
-done
+	# fix hinting 
+    gftools fix-hinting ${file} 
+ done
 
 # # ============================================================================
 # # Fix Others this might be unnecessary?  =====================================
@@ -114,28 +115,33 @@ echo Making other fixes
 for file in $statics; do 
     # gftools fix-ascii-fontmetadata ${file}
     # gftools fix-cmap ${file}
-   
     gftools fix-familymetadata ${file}
     # # gftools fix-fsselection ${file}
     # # gftools fix-fstype ${file}
     # gftools fix-gasp ${file}
 done
 
-
-# # ============================================================================
-# # Fix DSIG  this might be unnecessary?   =====================================
+# # Fix Others this might be unnecessary?  =====================================
 
 statics=$(ls fonts/ttfs/*.ttf)
-echo Making DSIG fix
+echo Making other fixes
 for file in $statics; do 
-    gftools fix-dsig ${file}
+    gftools fix-ascii-fontmetadata ${file}
+    # gftools fix-cmap ${file}
+    # gftools fix-familymetadata ${file}
+    # # gftools fix-fsselection ${file}
+    # # gftools fix-fstype ${file}
+    # gftools fix-gasp ${file}
 done
 
-# Build woff2 fonts ==========================================================
 
-# requires https://github.com/bramstein/homebrew-webfonttools
 
-rm -rf fonts/woff2
+
+# # Build woff2 fonts ==========================================================
+
+# # requires https://github.com/bramstein/homebrew-webfonttools
+
+# rm -rf fonts/woff2
 
 ttfs=$(ls fonts/*/*.ttf)
 for ttf in $ttfs; do
@@ -147,12 +153,12 @@ woff2s=$(ls fonts/*/*.woff2)
 for woff2 in $woff2s; do
     mv $woff2 fonts/woff2/$(basename $woff2)
 done
-# ============================================================================
-# Build woff fonts ==========================================================
+# # ============================================================================
+# # Build woff fonts ==========================================================
 
-# requires https://github.com/bramstein/homebrew-webfonttools
+# # requires https://github.com/bramstein/homebrew-webfonttools
 
-rm -rf fonts/woff
+# rm -rf fonts/woff
 
 ttfs=$(ls fonts/*/*.ttf)
 for ttf in $ttfs; do
