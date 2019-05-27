@@ -2,7 +2,9 @@
 .appVersion = "1230";
 DisplayStrings = (
 "ÆÐÞæðþß",
-"Æ"
+"Æ",
+"Ð",
+"þ"
 );
 classes = (
 {
@@ -76,6 +78,11 @@ name = .udiacritics;
 {
 code = "one H' I M N bracketright d i j l q bar dotlessi Igrave Iacute Icircumflex Idieresis Ntilde igrave iacute icircumflex idieresis ugrave uacute ucircumflex udieresis one.prop zero nine D O Q o p Ograve Oacute Ocircumflex Otilde Odieresis ograve oacute ocircumflex otilde odieresis zero.prop nine.prop";
 name = .RightVertical;
+},
+{
+automatic = 1;
+code = "AE Eth Thorn ae eth thorn germandbls";
+name = All;
 }
 );
 date = "2015-10-07 13:22:25 +0000";
@@ -417,7 +424,7 @@ unicode = 00C6;
 {
 color = 4;
 glyphname = Eth;
-lastChange = "2019-05-23 18:28:26 +0000";
+lastChange = "2019-05-23 18:32:43 +0000";
 layers = (
 {
 layerId = "BBC3A386-7273-41E0-A5EA-4021F987FA49";
@@ -448,7 +455,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"426 1118 LINE",
+"430 1163 LINE",
+"381 1118 LINE",
 "618 1118 LINE SMOOTH",
 "872 1118 OFFCURVE",
 "1010 912 OFFCURVE",
@@ -471,9 +479,9 @@ closed = 1;
 nodes = (
 "550 0 LINE SMOOTH",
 "926 0 OFFCURVE",
-"1212 290 OFFCURVE",
-"1212 734 CURVE SMOOTH",
-"1212 1068 OFFCURVE",
+"1212 301 OFFCURVE",
+"1212 714 CURVE SMOOTH",
+"1212 1079 OFFCURVE",
 "988 1302 OFFCURVE",
 "672 1302 CURVE SMOOTH",
 "286 1302 LINE",
@@ -496,9 +504,9 @@ nodes = (
 "441 1080 LINE",
 "648 1080 LINE SMOOTH",
 "854 1080 OFFCURVE",
-"972 928 OFFCURVE",
-"972 710 CURVE SMOOTH",
-"972 434 OFFCURVE",
+"972 931 OFFCURVE",
+"972 704 CURVE SMOOTH",
+"972 437 OFFCURVE",
 "808 222 OFFCURVE",
 "570 222 CURVE SMOOTH",
 "361 222 LINE",
@@ -510,46 +518,6 @@ width = 1238;
 },
 {
 layerId = "839D8BD1-16E6-4442-8A36-4192D3BB1D1F";
-paths = (
-{
-closed = 1;
-nodes = (
-"491 0 LINE SMOOTH",
-"818 0 OFFCURVE",
-"1039 225 OFFCURVE",
-"1095 574 CURVE SMOOTH",
-"1150 979 OFFCURVE",
-"969 1234 OFFCURVE",
-"610 1234 CURVE SMOOTH",
-"305 1234 LINE",
-"189 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"655 567 LINE",
-"665 668 LINE",
-"126 668 LINE",
-"115 567 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"393 1139 LINE",
-"602 1139 LINE SMOOTH",
-"882 1139 OFFCURVE",
-"1031 903 OFFCURVE",
-"991 587 CURVE SMOOTH",
-"950 298 OFFCURVE",
-"765 92 OFFCURVE",
-"502 92 CURVE SMOOTH",
-"250 92 LINE",
-"291 47 LINE"
-);
-}
-);
 width = 1163.94286;
 }
 );

@@ -107,33 +107,16 @@ for file in $statics; do
     gftools fix-hinting ${file} 
  done
 
-# # ============================================================================
-# # Fix Others this might be unnecessary?  =====================================
-
-statics=$(ls fonts/ttfs/*.ttf)
-echo Making other fixes
-for file in $statics; do 
-    # gftools fix-ascii-fontmetadata ${file}
-    # gftools fix-cmap ${file}
-    gftools fix-familymetadata ${file}
-    # # gftools fix-fsselection ${file}
-    # # gftools fix-fstype ${file}
-    # gftools fix-gasp ${file}
+for file in $statics; do
+	echo "rm rfing ttfs"
+	rm -rf *.ttf
+	echo "ttfs removed"
 done
 
-# # Fix Others this might be unnecessary?  =====================================
-
-statics=$(ls fonts/ttfs/*.ttf)
-echo Making other fixes
-for file in $statics; do 
-    gftools fix-ascii-fontmetadata ${file}
-    # gftools fix-cmap ${file}
-    # gftools fix-familymetadata ${file}
-    # # gftools fix-fsselection ${file}
-    # # gftools fix-fstype ${file}
-    # gftools fix-gasp ${file}
-done
-
+  # Rename all *.ttf.fix to *.ttf                                                                                                 [18043d14h19m] ✭  
+# for f in *.ttf.fix; do 
+#     mv -- "$f" "${f%.ttf.fix}.ttf"     
+# done
 
 
 
