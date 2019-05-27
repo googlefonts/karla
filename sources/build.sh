@@ -15,19 +15,19 @@ thisFont="Karla" # must match the name in the font file, e.g. FiraCode-VF.ttf ne
 
 echo "Generating Static fonts"
 
-mkdir -p ./fonts/ttfs
-mkdir -p ./fonts/otfs
+mkdir -p ./fonts/ttf
+mkdir -p ./fonts/otf
 mkdir -p ./fonts/variable
 
 echo "Made font directories"
-fontmake -g Karla-Roman.glyphs -i -o ttf --output-dir ./fonts/ttfs/
+fontmake -g Karla-Roman.glyphs -i -o ttf --output-dir ./fonts/ttf/
 echo "Made Roman ttfs"
-fontmake -g Karla-Italic.glyphs -i -o ttf --output-dir ./fonts/ttfs/
+fontmake -g Karla-Italic.glyphs -i -o ttf --output-dir ./fonts/ttf/
 echo "Made Italic ttfs"
 
-fontmake -g Karla-Roman.glyphs -i -o otf --output-dir ./fonts/otfs/
+fontmake -g Karla-Roman.glyphs -i -o otf --output-dir ./fonts/otf/
 echo "Made Roman otfs"
-fontmake -g Karla-Italic.glyphs -i -o otf --output-dir ./fonts/otfs/
+fontmake -g Karla-Italic.glyphs -i -o otf --output-dir ./fonts/otf/
 echo "Made Italic otfs"
 
 echo "Generating VFs"
@@ -43,7 +43,7 @@ echo "Build UFOS Removed"
 
 echo "Post processing"
 
-ttfs=$(ls ../fonts/ttfs/*.ttf)
+ttfs=$(ls ../fonts/ttf/*.ttf)
 echo $ttfs
 for ttf in $ttfs
 do
@@ -81,7 +81,7 @@ echo "Post processing complete"
 # # ============================================================================
 # # Autohinting ================================================================
 
-statics=$(ls fonts/ttfs/*.ttf)
+statics=$(ls fonts/ttf/*.ttf)
 echo hello
 for file in $statics; do 
     echo "fix DSIG in " ${file}
@@ -99,7 +99,7 @@ done
 # # ============================================================================
 # # Fix Hinting ================================================================
 
-statics=$(ls fonts/ttfs/*.ttf)
+statics=$(ls fonts/ttf/*.ttf)
 echo Hi Mirko I am trying to fix the hinting
 for file in $statics; do 
 	echo "fix hinting in " ${file}
@@ -107,16 +107,16 @@ for file in $statics; do
     gftools fix-hinting ${file} 
  done
 
-for file in $statics; do
+
 	echo "rm rfing ttfs"
-	rm -rf *.ttf
+	rm -rf fonts/ttf/*.ttf
 	echo "ttfs removed"
-done
+
 
   # Rename all *.ttf.fix to *.ttf                                                                                                 [18043d14h19m] ✭  
-# for f in *.ttf.fix; do 
-#     mv -- "$f" "${f%.ttf.fix}.ttf"     
-# done
+for f in fonts/ttf/*.ttf.fix; do 
+    mv -- "$f" "${f%.ttf.fix}.ttf"     
+done
 
 
 
