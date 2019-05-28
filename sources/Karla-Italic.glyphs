@@ -9,7 +9,7 @@ DisplayStrings = (
 "/.notdef",
 " ",
 "ÐAÆEÞaæeþßðo",
-"¶P§©®/trademark °¦/dagger/daggerdbl"
+"¶P§|¦©®/trademark °¦/dagger/daggerdbl"
 );
 classes = (
 {
@@ -18616,14 +18616,55 @@ unicode = 00B0;
 },
 {
 glyphname = brokenbar;
+lastChange = "2019-05-28 13:38:05 +0000";
 layers = (
 {
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
-width = 1200;
+paths = (
+{
+closed = 1;
+nodes = (
+"239 -244 LINE",
+"311.021 530 LINE",
+"245.021 530 LINE",
+"173 -244 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"324.979 680 LINE",
+"397 1454 LINE",
+"331 1454 LINE",
+"258.979 680 LINE"
+);
+}
+);
+width = 456;
 },
 {
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
-width = 1200;
+paths = (
+{
+closed = 1;
+nodes = (
+"423 -244 LINE",
+"499.793 553 LINE",
+"203.793 553 LINE",
+"127 -244 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"523.303 797 LINE",
+"600 1593 LINE",
+"304 1593 LINE",
+"227.303 797 LINE"
+);
+}
+);
+width = 601;
 }
 );
 unicode = 00A6;

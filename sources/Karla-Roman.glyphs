@@ -5,7 +5,9 @@ DisplayStrings = (
 "Trade/trademark",
 "s§",
 "&@|¶§©C®R/trademark O°¦/dagger/daggerdbl",
-"/daggerdbl !/dagger Karla but with daggers"
+"/daggerdbl !/dagger Karla but with daggers",
+"¢",
+"ÆÐÞæðþß"
 );
 classes = (
 {
@@ -10068,6 +10070,104 @@ width = 1443;
 unicode = 00D5;
 },
 {
+glyphname = AE;
+layers = (
+{
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 1200;
+},
+{
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 1200;
+}
+);
+unicode = 00C6;
+},
+{
+glyphname = Eth;
+layers = (
+{
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 1200;
+},
+{
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 1200;
+}
+);
+unicode = 00D0;
+},
+{
+glyphname = Thorn;
+layers = (
+{
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 1200;
+},
+{
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 1200;
+}
+);
+unicode = 00DE;
+},
+{
+glyphname = ae;
+layers = (
+{
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 1200;
+},
+{
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 1200;
+}
+);
+unicode = 00E6;
+},
+{
+glyphname = eth;
+layers = (
+{
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 1200;
+},
+{
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 1200;
+}
+);
+unicode = 00F0;
+},
+{
+glyphname = thorn;
+layers = (
+{
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 1200;
+},
+{
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 1200;
+}
+);
+unicode = 00FE;
+},
+{
+glyphname = germandbls;
+layers = (
+{
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 1200;
+},
+{
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 1200;
+}
+);
+unicode = 00DF;
+},
+{
 glyphname = zero.propold;
 lastChange = "2019-05-24 19:56:54 +0000";
 layers = (
@@ -15621,13 +15721,13 @@ unicode = 00A7;
 },
 {
 glyphname = copyright;
-lastChange = "2019-05-24 20:25:10 +0000";
+lastChange = "2019-05-28 13:30:39 +0000";
 layers = (
 {
 components = (
 {
 name = C;
-transform = "{0.612, 0, 0, 0.612, 287, 238}";
+transform = "{0.63036, 0, 0, 0.63036, 276, 227}";
 }
 );
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
@@ -15720,13 +15820,13 @@ unicode = 00A9;
 },
 {
 glyphname = registered;
-lastChange = "2019-05-24 20:27:31 +0000";
+lastChange = "2019-05-28 13:30:32 +0000";
 layers = (
 {
 components = (
 {
 name = R;
-transform = "{0.57143, 0, 0, 0.57143, 346, 271}";
+transform = "{0.58857, 0, 0, 0.58857, 335, 261}";
 }
 );
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
