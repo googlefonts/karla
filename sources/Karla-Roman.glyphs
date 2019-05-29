@@ -7,7 +7,9 @@ DisplayStrings = (
 "ù",
 "Ý",
 "/ellipsis ¡¿·/bullet/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf/hyphen.tf/underscore.tf/quotesinglbase/quotedblbase/quotedblleft/quotedblright «»/guilsinglleft/guilsinglright/quotedbl.tf",
-"/ellipsis ¡¿·/bullet/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf/hyphen.tf/underscore.tf/quotesinglbase/quotedblbase/quotedblleft/quotedblright «»/guilsinglleft nHhH/guilsinglright/quotedbl.tf"
+"/ellipsis ¡¿·/bullet/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf/hyphen.tf/underscore.tf/quotesinglbase/quotedblbase/quotedblleft/quotedblright «»/guilsinglleft nHhH/guilsinglright/quotedbl.tf",
+f,
+"/florin"
 );
 classes = (
 {
@@ -15117,16 +15119,107 @@ unicode = 20AC;
 },
 {
 glyphname = florin;
+lastChange = "2019-05-29 16:29:27 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
-width = 1200;
+paths = (
+{
+closed = 1;
+nodes = (
+"465 883 LINE",
+"469 942 LINE",
+"10 942 LINE",
+"6 883 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-148 -394 OFFCURVE",
+"-105 -400 OFFCURVE",
+"-62 -400 CURVE SMOOTH",
+"84 -400 OFFCURVE",
+"192 -322 OFFCURVE",
+"204 -152 CURVE SMOOTH",
+"292 1120 LINE SMOOTH",
+"304 1279 OFFCURVE",
+"401 1307 OFFCURVE",
+"473 1307 CURVE SMOOTH",
+"511 1307 OFFCURVE",
+"554 1299 OFFCURVE",
+"599 1279 CURVE",
+"617 1344 LINE",
+"572 1362 OFFCURVE",
+"529 1368 OFFCURVE",
+"486 1368 CURVE SMOOTH",
+"340 1368 OFFCURVE",
+"232 1290 OFFCURVE",
+"220 1120 CURVE SMOOTH",
+"132 -152 LINE SMOOTH",
+"120 -311 OFFCURVE",
+"23 -339 OFFCURVE",
+"-49 -339 CURVE SMOOTH",
+"-87 -339 OFFCURVE",
+"-130 -331 OFFCURVE",
+"-175 -311 CURVE",
+"-193 -376 LINE"
+);
+}
+);
+width = 604;
 },
 {
 layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
-width = 1200;
+paths = (
+{
+closed = 1;
+nodes = (
+"642 778 LINE",
+"656 985 LINE",
+"43 985 LINE",
+"29 778 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-56 -468 OFFCURVE",
+"30 -480 OFFCURVE",
+"104 -480 CURVE SMOOTH",
+"269 -480 OFFCURVE",
+"433 -384 OFFCURVE",
+"449 -153 CURVE SMOOTH",
+"534 1065 LINE SMOOTH",
+"538 1119 OFFCURVE",
+"572 1147 OFFCURVE",
+"620 1147 CURVE SMOOTH",
+"652 1147 OFFCURVE",
+"684 1139 OFFCURVE",
+"710 1132 CURVE",
+"790 1375 LINE",
+"715 1386 OFFCURVE",
+"629 1398 OFFCURVE",
+"555 1398 CURVE SMOOTH",
+"390 1398 OFFCURVE",
+"226 1302 OFFCURVE",
+"210 1071 CURVE SMOOTH",
+"125 -147 LINE SMOOTH",
+"121 -201 OFFCURVE",
+"87 -229 OFFCURVE",
+"39 -229 CURVE SMOOTH",
+"7 -229 OFFCURVE",
+"-25 -221 OFFCURVE",
+"-51 -214 CURVE",
+"-131 -457 LINE"
+);
 }
 );
+width = 790;
+}
+);
+leftMetricsKey = j;
+rightMetricsKey = f;
 unicode = 0192;
 },
 {
