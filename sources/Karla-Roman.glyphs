@@ -11,7 +11,9 @@ DisplayStrings = (
 "/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom",
 "",
 "/zero.numr 1/one.numr 2/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr",
-"/zero.propold/one.propold/two.propold/three.propold/four.propold/five.propold/six.propold/seven.propold/eight.propold/nine.propold/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½¼¾"
+"/zero.propold/one.propold/two.propold/three.propold/four.propold/five.propold/six.propold/seven.propold/eight.propold/nine.propold/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½¼¾",
+"/product/summation/radical 1234",
+"/perthousand"
 );
 classes = (
 {
@@ -24188,14 +24190,51 @@ unicode = 2211;
 },
 {
 glyphname = radical;
+lastChange = "2019-05-31 21:14:37 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
-width = 1200;
+paths = (
+{
+closed = 1;
+nodes = (
+"558 1 LINE",
+"1042 1680 LINE",
+"960 1680 LINE",
+"516 82 LINE",
+"536 82 LINE",
+"396 477 LINE",
+"10 437 LINE",
+"19 389 LINE",
+"345 419 LINE",
+"322 435 LINE",
+"484 1 LINE"
+);
+}
+);
+width = 1052;
 },
 {
 layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
-width = 1200;
+paths = (
+{
+closed = 1;
+nodes = (
+"690 1 LINE",
+"1312 1685 LINE",
+"1057 1685 LINE",
+"521 182 LINE",
+"666 182 LINE",
+"416 677 LINE",
+"10 437 LINE",
+"100 254 LINE",
+"308 372 LINE",
+"193 506 LINE",
+"445 1 LINE"
+);
+}
+);
+width = 1322;
 }
 );
 unicode = 221A;
@@ -24322,17 +24361,57 @@ unicode = 2202;
 },
 {
 glyphname = perthousand;
-lastChange = "2019-05-29 16:53:34 +0000";
+lastChange = "2019-05-31 21:17:01 +0000";
 layers = (
 {
-layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
-width = 1200;
+components = (
+{
+name = zero.numr;
 },
 {
-layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
-width = 877;
+name = zero.dnom;
+transform = "{1, 0, 0, 1, 754, 0}";
+},
+{
+alignment = -1;
+name = zero.dnom;
+transform = "{1, 0, 0, 1, 1408, 0}";
+},
+{
+alignment = -1;
+name = fraction;
+transform = "{1, 0, 0, 1, 502, 0}";
 }
 );
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 2162;
+},
+{
+components = (
+{
+name = zero.numr;
+},
+{
+alignment = -1;
+name = zero.dnom;
+transform = "{1, 0, 0, 1, 1019, 0}";
+},
+{
+name = zero.dnom;
+transform = "{1, 0, 0, 1, 1798, 0}";
+},
+{
+alignment = -1;
+name = fraction;
+transform = "{1, 0, 0, 1, 648, 0}";
+}
+);
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 2677;
+}
+);
+leftMetricsKey = zero;
+rightMetricsKey = zero;
 unicode = 2030;
 },
 {
