@@ -2,7 +2,8 @@
 .appVersion = "1230";
 DisplayStrings = (
 "¢¤/euro/florin/rupee ¥/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal ¬/infinity/emptyset/integral/product/summation/radical µ/partialdiff/perthousand/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf/lozenge ¶§©®/trademark °¦/dagger/daggerdbl",
-"´/circumflex"
+"´/circumflex",
+"/DivisionSlash"
 );
 classes = (
 {
@@ -27565,6 +27566,31 @@ width = 727;
 leftMetricsKey = o;
 rightMetricsKey = o;
 unicode = 02DA;
+},
+{
+glyphname = DivisionSlash;
+lastChange = "2019-06-03 22:13:21 +0000";
+layers = (
+{
+components = (
+{
+name = fraction;
+}
+);
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+width = 522;
+},
+{
+components = (
+{
+name = fraction;
+}
+);
+layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+width = 593;
+}
+);
+unicode = 2215;
 }
 );
 instances = (
