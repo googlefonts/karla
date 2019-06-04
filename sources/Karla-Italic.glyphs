@@ -10,7 +10,9 @@ DisplayStrings = (
 "/gravecomb",
 "",
 "/DivisionSlash",
-"/cedillacomb"
+"/cedillacomb",
+"",
+"\015"
 );
 classes = (
 {
@@ -226,12 +228,6 @@ name = vendorID;
 value = GOOG;
 },
 {
-name = fsType;
-value = (
-3
-);
-},
-{
 name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
@@ -443,17 +439,18 @@ width = 0;
 },
 {
 glyphname = CR;
-lastChange = "2019-05-24 19:57:20 +0000";
+lastChange = "2019-06-04 17:25:12 +0000";
 layers = (
 {
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
-width = 927;
+width = 1200;
 },
 {
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
-width = 1137;
+width = 1200;
 }
 );
+unicode = 000D;
 },
 {
 glyphname = space;
