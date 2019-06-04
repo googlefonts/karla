@@ -226,20 +226,21 @@ name = vendorID;
 value = GOOG;
 },
 {
-name = licenseURL;
-value = "'http://scripts.sil.org/OFL'";
-},
-{
 name = fsType;
 value = (
+3
 );
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
 },
 {
 name = license;
-value = "New Value";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 }
 );
-date = "2019-06-04 15:49:58 +0000";
+date = "2019-06-04 16:46:09 +0000";
 designer = "Jonathan Pinhorn";
 disablesNiceNames = 1;
 familyName = Karla;
