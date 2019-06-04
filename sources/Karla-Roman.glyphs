@@ -26,16 +26,16 @@ value = "Karla is a trademark of Jonathan Pinhorn";
 {
 name = panose;
 value = (
+2,
+11,
 0,
+4,
+3,
+5,
+3,
+3,
 0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
+3
 );
 },
 {
@@ -216,7 +216,7 @@ Otilde
 },
 {
 name = vendorID;
-value = "0000";
+value = GOOG;
 },
 {
 name = licenseURL;

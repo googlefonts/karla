@@ -24,7 +24,7 @@ code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c 
 name = All;
 }
 );
-copyright = "Copyright 2019 The Karla Project Jonathan Pinhorn,bghryct  https://github.com/bghryct/karmilla";
+copyright = "Copyright 2019 The Karla Project Jonathan Pinhorn https://github.com/bghryct/karmilla";
 customParameters = (
 {
 name = trademark;
@@ -33,16 +33,16 @@ value = "Karla is a trademark of Jonathan Pinhorn";
 {
 name = panose;
 value = (
+2,
+11,
 0,
+4,
+3,
+5,
+3,
+3,
 0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
+3
 );
 },
 {
@@ -223,14 +223,23 @@ Otilde
 },
 {
 name = vendorID;
-value = "0000";
+value = GOOG;
 },
 {
 name = licenseURL;
 value = "'http://scripts.sil.org/OFL'";
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = license;
+value = "New Value";
 }
 );
-date = "2019-05-21 21:32:11 +0000";
+date = "2019-06-04 15:49:58 +0000";
 designer = "Jonathan Pinhorn";
 disablesNiceNames = 1;
 familyName = Karla;
@@ -15561,7 +15570,7 @@ width = 652;
 },
 {
 glyphname = imacron;
-lastChange = "2019-06-03 21:09:21 +0000";
+lastChange = "2019-06-04 15:40:23 +0000";
 layers = (
 {
 components = (
@@ -15583,7 +15592,7 @@ name = idotless;
 },
 {
 name = macroncomb;
-transform = "{0.66, 0, 0, 1, 16, 0}";
+transform = "{0.66, 0, 0, 1, 17, 0}";
 }
 );
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
