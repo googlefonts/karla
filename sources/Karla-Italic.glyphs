@@ -409,11 +409,11 @@ value = -525;
 },
 {
 name = winDescent;
-value = 525;
+value = 545;
 },
 {
 name = winAscent;
-value = 1924;
+value = 2062;
 }
 );
 descender = -504;
