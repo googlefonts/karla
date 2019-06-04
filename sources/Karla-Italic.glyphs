@@ -26,7 +26,7 @@ code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c 
 name = All;
 }
 );
-copyright = "Copyright 2019 The Karla Project Jonathan Pinhorn https://github.com/bghryct/karmilla";
+copyright = "Copyright 2019 The Karla Project Authors (https://github.com/bghryct/karmilla)";
 customParameters = (
 {
 name = trademark;
@@ -236,7 +236,7 @@ name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 }
 );
-date = "2019-06-04 16:46:09 +0000";
+date = "2019-06-04 17:51:03 +0000";
 designer = "Jonathan Pinhorn";
 disablesNiceNames = 1;
 familyName = Karla;
@@ -26759,7 +26759,6 @@ instanceInterpolations = {
 "AD226DB4-BE97-401A-8A1F-FC26A063DFB1" = 0.66957;
 };
 isItalic = 1;
-linkStyle = Regular;
 name = Italic;
 weightClass = Normal;
 },
@@ -26782,7 +26781,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Italic;
+linkStyle = Regular;
 name = "Bold Italic";
 weightClass = Bold;
 },
