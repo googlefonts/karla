@@ -53,7 +53,7 @@ do
 done
 rm ../fonts/ttfs/*backup*.ttf
 
-vfs=$(ls ../fonts/variable/*.ttf)
+vfs=$(ls /fonts/variable/*.ttf)
 for vf in $vfs
 do
 	gftools fix-dsig -f $vf;
@@ -61,12 +61,12 @@ do
 	mv "$vf.fix" $vf;
 	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
 	rtrip=$(basename -s .ttf $vf)
-	new_file=../fonts/variable/$rtrip.ttx;
+	new_file=/fonts/variable/$rtrip.ttx;
 	rm $vf;
 	ttx $new_file
-	rm ../fonts/variable/*.ttx
+	rm /fonts/variable/*.ttx
 done
-rm ../fonts/variable/*backup*.ttf
+rm /fonts/variable/*backup*.ttf
 
 gftools fix-vf-meta $vfs;
 for vf in $vfs
