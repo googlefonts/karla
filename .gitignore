@@ -48,3 +48,5 @@ img-unpublished
 old-versions
 test
 #.gitignore
+venv
+venv/*
