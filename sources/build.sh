@@ -113,12 +113,10 @@ for file in $statics; do
 	echo "ttfs removed"
 
 
-  # Rename all *.ttf.fix to *.ttf                                                                                                 [18043d14h19m] ✭  
+  # Rename all *.ttf.fix to *.ttf                                                                                       
 for f in fonts/ttf/*.ttf.fix; do 
     mv -- "$f" "${f%.ttf.fix}.ttf"     
 done
-
-
 
 # # Build woff2 fonts ==========================================================
 

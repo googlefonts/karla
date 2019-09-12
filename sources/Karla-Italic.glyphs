@@ -1,19 +1,5 @@
 {
-.appVersion = "1230";
-DisplayStrings = (
-"/Abreve/Amacron/Aogonek ÅÆ/Cacute/Ccaron Ç/Cdotaccent Ð/Dcaron/Dcroat/Ecaron/Edotaccent/Emacron/Eogonek/Gbreve/Gcommaaccent/Gdotaccent/Hbar/Idotaccent/Imacron/Iogonek/Kcommaaccent/Lacute/Lcaron/Lcommaaccent/Lslash/Nacute/Ncaron N/Ncommaaccent/Eng/Ohungarumlaut/Omacron Ø/OE Þ/Racute/Rcaron/Rcommaaccent/Sacute/Scaron S/Scedilla/Scommaaccent/Germandbls/Tbar/Tcaron/Tcedilla/Tcommaaccent/Uhungarumlaut/Umacron/Uogonek/Uring/Wacute/Wcircumflex/Wdieresis/Wgrave Ý/Ycircumflex/Ydieresis/Ygrave/Zacute/Zcaron/Zdotaccent/abreve/amacron/aogonek åæ/cacute/ccaron ç/cdotaccent ð/dcaron/dcroat/ecaron/edotaccent/emacron/eogonek/gbreve/gcommaaccent/gdotaccent/hbar/idotless/idotaccent/imacron/iogonek/jdotless/kcommaaccent/lacute l/lcaron/lcommaaccent/lslash/nacute/ncaron/ncommaaccent/eng o/ohungarumlaut/omacron ø/oe þ/racute r/caroncomb/rcaron/rcommaaccent s/acutecomb/sacute/scaron/scedilla/scommaaccent ß/tbar/tcaron t/tcedilla/tcommaaccent/uhungarumlaut/umacron/uogonek/uring/wacute/wcircumflex/wdieresis/wgrave ý/ycircumflex/ydieresis/ygrave/zacute/zcaron/zdotaccent/fi/fl",
-"/oe",
-"¢¤/euro/florin/rupee ¥/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal ¬/infinity/integral/product/summation/radical µ/partialdiff/perthousand/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf/lozenge ¶§©®/trademark °¦/dagger/daggerdbl",
-"/imacron",
-"",
-"/fraction",
-"/gravecomb",
-"",
-"/DivisionSlash",
-"/cedillacomb",
-"",
-"\015"
-);
+.appVersion = "1264";
 classes = (
 {
 automatic = 1;
@@ -234,6 +220,15 @@ value = "http://scripts.sil.org/OFL";
 {
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2019-06-04 17:51:03 +0000";
@@ -325,7 +320,7 @@ alignmentZones = (
 );
 ascender = 1834;
 capHeight = 1215;
-custom = Extra;
+custom = "Extra Italic";
 customParameters = (
 {
 name = typoAscender;
@@ -363,7 +358,7 @@ value = 2062;
 descender = -504;
 id = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
 italicAngle = 8;
-name = ExtraLight;
+name = "ExtraLight Italic";
 weight = Light;
 weightValue = 33;
 xHeight = 939;
@@ -15370,7 +15365,7 @@ unicode = 011F;
 },
 {
 glyphname = gcommaaccent;
-lastChange = "2019-06-03 18:42:10 +0000";
+lastChange = "2019-09-12 20:09:48 +0000";
 layers = (
 {
 components = (
@@ -15379,7 +15374,7 @@ name = g;
 },
 {
 name = commaturnedabovecomb;
-transform = "{1, 0, 0, 1, 351, 0}";
+transform = "{1, 0, 0, 1, 280, 0}";
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
@@ -15392,7 +15387,7 @@ name = g;
 },
 {
 name = commaturnedabovecomb;
-transform = "{1, 0, 0, 1, 256, 0}";
+transform = "{1, 0, 0, 1, 310, 0}";
 }
 );
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
@@ -19226,7 +19221,7 @@ width = 1160;
 },
 {
 glyphname = zero.numr;
-lastChange = "2019-06-03 21:02:32 +0000";
+lastChange = "2019-09-12 20:09:48 +0000";
 layers = (
 {
 components = (
@@ -19282,7 +19277,7 @@ rightMetricsKey = one.dnom;
 },
 {
 glyphname = two.numr;
-lastChange = "2019-06-03 21:02:32 +0000";
+lastChange = "2019-09-12 20:09:48 +0000";
 layers = (
 {
 components = (
@@ -19310,7 +19305,7 @@ rightMetricsKey = two.dnom;
 },
 {
 glyphname = three.numr;
-lastChange = "2019-06-03 21:02:27 +0000";
+lastChange = "2019-09-12 20:08:38 +0000";
 layers = (
 {
 components = (
@@ -19338,7 +19333,7 @@ rightMetricsKey = three.dnom;
 },
 {
 glyphname = four.numr;
-lastChange = "2019-06-03 21:02:32 +0000";
+lastChange = "2019-09-12 20:09:48 +0000";
 layers = (
 {
 components = (
@@ -19366,7 +19361,7 @@ rightMetricsKey = four.dnom;
 },
 {
 glyphname = five.numr;
-lastChange = "2019-06-03 21:02:32 +0000";
+lastChange = "2019-09-12 20:08:38 +0000";
 layers = (
 {
 components = (
@@ -19394,7 +19389,7 @@ rightMetricsKey = five.dnom;
 },
 {
 glyphname = six.numr;
-lastChange = "2019-06-03 21:02:32 +0000";
+lastChange = "2019-09-12 20:09:48 +0000";
 layers = (
 {
 components = (
@@ -19422,7 +19417,7 @@ rightMetricsKey = six.dnom;
 },
 {
 glyphname = seven.numr;
-lastChange = "2019-06-03 21:02:32 +0000";
+lastChange = "2019-09-12 20:09:48 +0000";
 layers = (
 {
 components = (
@@ -19450,7 +19445,7 @@ rightMetricsKey = seven.dnom;
 },
 {
 glyphname = eight.numr;
-lastChange = "2019-06-03 21:02:27 +0000";
+lastChange = "2019-09-12 20:08:38 +0000";
 layers = (
 {
 components = (
@@ -19478,7 +19473,7 @@ rightMetricsKey = eight.dnom;
 },
 {
 glyphname = nine.numr;
-lastChange = "2019-06-03 21:02:32 +0000";
+lastChange = "2019-09-12 20:08:38 +0000";
 layers = (
 {
 components = (
@@ -26265,23 +26260,23 @@ unicode = 0304;
 },
 {
 glyphname = commaturnedabovecomb;
-lastChange = "2019-06-03 18:18:59 +0000";
+lastChange = "2019-09-12 20:08:38 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{286, 939}";
+position = "{357, 939}";
 },
 {
 name = top;
-position = "{344, 1356}";
+position = "{415, 1356}";
 }
 );
 components = (
 {
 name = commaaccentcomb;
-transform = "{-1, 0, 0, -1, 368, 1011}";
+transform = "{-1, 0, 0, -1, 439, 1011}";
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
@@ -26291,17 +26286,17 @@ width = 342;
 anchors = (
 {
 name = _top;
-position = "{357, 991}";
+position = "{303, 991}";
 },
 {
 name = top;
-position = "{446, 1621}";
+position = "{392, 1621}";
 }
 );
 components = (
 {
 name = commaaccentcomb;
-transform = "{-1, 0, 0, -1, 627, 1076}";
+transform = "{-1, 0, 0, -1, 573, 1076}";
 }
 );
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
@@ -27321,6 +27316,9 @@ Y = -74;
 };
 };
 unitsPerEm = 2000;
+userData = {
+LWPluginVersion = "1392";
+};
 versionMajor = 2;
 versionMinor = 0;
 }
