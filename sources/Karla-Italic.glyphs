@@ -1,5 +1,8 @@
 {
-.appVersion = "1264";
+.appVersion = "1277";
+DisplayStrings = (
+"'/quoteleft/quoteright \"/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quotedbl.tf"
+);
 classes = (
 {
 automatic = 1;
@@ -6275,7 +6278,7 @@ unicode = 2018;
 },
 {
 glyphname = quoteright;
-lastChange = "2019-05-24 19:57:20 +0000";
+lastChange = "2019-12-12 19:54:54 +0000";
 layers = (
 {
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
@@ -6285,7 +6288,7 @@ closed = 1;
 nodes = (
 "220 972 OFFCURVE",
 "258 1043 OFFCURVE",
-"262 1101 CURVE",
+"262 1101 CURVE SMOOTH",
 "269 1162 OFFCURVE",
 "241 1196 OFFCURVE",
 "197 1196 CURVE SMOOTH",
@@ -6312,7 +6315,7 @@ closed = 1;
 nodes = (
 "510 748 OFFCURVE",
 "646 912 OFFCURVE",
-"662 1081 CURVE",
+"662 1081 CURVE SMOOTH",
 "677 1234 OFFCURVE",
 "602 1366 OFFCURVE",
 "466 1366 CURVE SMOOTH",
@@ -10881,7 +10884,7 @@ unicode = 003E;
 },
 {
 glyphname = quotedbl;
-lastChange = "2019-05-15 14:38:49 +0000";
+lastChange = "2019-12-12 19:55:02 +0000";
 layers = (
 {
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
@@ -10889,19 +10892,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"143 950 LINE",
-"199 950 LINE",
-"248 1351 LINE",
-"169 1351 LINE"
+"436 950 LINE",
+"485 1351 LINE",
+"406 1351 LINE",
+"380 950 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"380 950 LINE",
-"436 950 LINE",
-"485 1351 LINE",
-"406 1351 LINE"
+"199 950 LINE",
+"248 1351 LINE",
+"169 1351 LINE",
+"143 950 LINE"
 );
 }
 );
@@ -10913,19 +10916,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"182 865 LINE",
-"396 865 LINE",
-"484 1384 LINE",
-"196 1384 LINE"
+"830 865 LINE",
+"918 1384 LINE",
+"630 1384 LINE",
+"616 865 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"616 865 LINE",
-"830 865 LINE",
-"918 1384 LINE",
-"630 1384 LINE"
+"396 865 LINE",
+"484 1384 LINE",
+"196 1384 LINE",
+"182 865 LINE"
 );
 }
 );
@@ -19221,7 +19224,7 @@ width = 1160;
 },
 {
 glyphname = zero.numr;
-lastChange = "2019-09-12 20:09:48 +0000";
+lastChange = "2019-12-12 19:57:04 +0000";
 layers = (
 {
 components = (
@@ -19277,7 +19280,7 @@ rightMetricsKey = one.dnom;
 },
 {
 glyphname = two.numr;
-lastChange = "2019-09-12 20:09:48 +0000";
+lastChange = "2019-12-12 19:57:04 +0000";
 layers = (
 {
 components = (
@@ -19305,7 +19308,7 @@ rightMetricsKey = two.dnom;
 },
 {
 glyphname = three.numr;
-lastChange = "2019-09-12 20:08:38 +0000";
+lastChange = "2019-12-12 19:57:03 +0000";
 layers = (
 {
 components = (
@@ -19333,7 +19336,7 @@ rightMetricsKey = three.dnom;
 },
 {
 glyphname = four.numr;
-lastChange = "2019-09-12 20:09:48 +0000";
+lastChange = "2019-12-12 19:57:04 +0000";
 layers = (
 {
 components = (
@@ -19361,7 +19364,7 @@ rightMetricsKey = four.dnom;
 },
 {
 glyphname = five.numr;
-lastChange = "2019-09-12 20:08:38 +0000";
+lastChange = "2019-12-12 19:57:04 +0000";
 layers = (
 {
 components = (
@@ -19389,7 +19392,7 @@ rightMetricsKey = five.dnom;
 },
 {
 glyphname = six.numr;
-lastChange = "2019-09-12 20:09:48 +0000";
+lastChange = "2019-12-12 19:57:04 +0000";
 layers = (
 {
 components = (
@@ -19417,7 +19420,7 @@ rightMetricsKey = six.dnom;
 },
 {
 glyphname = seven.numr;
-lastChange = "2019-09-12 20:09:48 +0000";
+lastChange = "2019-12-12 19:57:04 +0000";
 layers = (
 {
 components = (
@@ -19445,7 +19448,7 @@ rightMetricsKey = seven.dnom;
 },
 {
 glyphname = eight.numr;
-lastChange = "2019-09-12 20:08:38 +0000";
+lastChange = "2019-12-12 19:57:03 +0000";
 layers = (
 {
 components = (
@@ -19473,7 +19476,7 @@ rightMetricsKey = eight.dnom;
 },
 {
 glyphname = nine.numr;
-lastChange = "2019-09-12 20:08:38 +0000";
+lastChange = "2019-12-12 19:57:04 +0000";
 layers = (
 {
 components = (
@@ -21312,116 +21315,140 @@ width = 1200;
 },
 {
 glyphname = quotesinglbase;
+lastChange = "2019-12-12 19:55:27 +0000";
 layers = (
 {
 components = (
 {
 name = comma;
+transform = "{1, 0, 0, 1, -53, 0}";
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
-width = 1200;
+width = 338;
 },
 {
 components = (
 {
 name = comma;
+transform = "{1, 0, 0, 1, -22, 0}";
 }
 );
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
-width = 1200;
+width = 582;
 }
 );
+leftMetricsKey = quoteleft;
+rightMetricsKey = quoteright;
 unicode = 201A;
 },
 {
 glyphname = quotedblbase;
+lastChange = "2019-12-12 19:55:50 +0000";
 layers = (
 {
 components = (
 {
 name = comma;
+transform = "{1, 0, 0, 1, 167, 0}";
 },
 {
 name = comma;
+transform = "{1, 0, 0, 1, -53, 0}";
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
-width = 1200;
+width = 558;
 },
 {
 components = (
 {
 name = comma;
+transform = "{1, 0, 0, 1, 484, 0}";
 },
 {
 name = comma;
+transform = "{1, 0, 0, 1, -22, 0}";
 }
 );
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
-width = 1200;
+width = 1088;
 }
 );
+leftMetricsKey = quoteleft;
+rightMetricsKey = quoteright;
 unicode = 201E;
 },
 {
 glyphname = quotedblleft;
+lastChange = "2019-12-12 19:56:17 +0000";
 layers = (
 {
 components = (
 {
 name = quoteleft;
+transform = "{1, 0, 0, 1, 203, 0}";
 },
 {
 name = quoteleft;
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
-width = 1200;
+width = 538;
 },
 {
 components = (
 {
 name = quoteleft;
+transform = "{1, 0, 0, 1, 510, 0}";
 },
 {
 name = quoteleft;
 }
 );
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
-width = 1200;
+width = 1098;
 }
 );
+leftMetricsKey = quoteleft;
+rightMetricsKey = quoteright;
 unicode = 201C;
 },
 {
 glyphname = quotedblright;
+lastChange = "2019-12-12 19:56:43 +0000";
 layers = (
 {
 components = (
 {
 name = quoteright;
+transform = "{1, 0, 0, 1, 267, 0}";
 },
 {
 name = quoteright;
+transform = "{1, 0, 0, 1, 60, 0}";
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
-width = 1200;
+width = 542;
 },
 {
 components = (
 {
 name = quoteright;
+transform = "{1, 0, 0, 1, 496, 0}";
 },
 {
 name = quoteright;
+transform = "{1, 0, 0, 1, -25, 0}";
 }
 );
 layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
-width = 1200;
+width = 1106;
 }
 );
+leftMetricsKey = quoteleft;
+rightMetricsKey = quoteright;
 unicode = 201D;
 },
 {
@@ -21587,7 +21614,7 @@ unicode = 203A;
 {
 export = 0;
 glyphname = quotedbl.tf;
-lastChange = "2019-05-16 17:36:28 +0000";
+lastChange = "2019-12-12 19:57:03 +0000";
 layers = (
 {
 components = (
