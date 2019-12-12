@@ -1,8 +1,5 @@
 {
 .appVersion = "1277";
-DisplayStrings = (
-"'/quoteleft/quoteright \"/quotesinglbase/quotedblbase/quotedblleft/quotedblright SLAVA"
-);
 classes = (
 {
 automatic = 1;
@@ -326,7 +323,7 @@ custom = Extra;
 customParameters = (
 {
 name = typoDescender;
-value = -525;
+value = -504;
 },
 {
 name = typoLineGap;
@@ -338,15 +335,15 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = typoAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = hheaDescender;
-value = -525;
+value = -504;
 },
 {
 name = winDescent;
@@ -391,7 +388,7 @@ custom = Extra;
 customParameters = (
 {
 name = typoDescender;
-value = -525;
+value = -504;
 },
 {
 name = typoLineGap;
@@ -403,15 +400,15 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = typoAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = hheaDescender;
-value = -525;
+value = -504;
 },
 {
 name = winDescent;
