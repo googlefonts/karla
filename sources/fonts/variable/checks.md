@@ -1,17 +1,15 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.15
+Fontbakery version: 0.7.18
 
 <details>
 <summary><b>[29] Family checks</b></summary>
 <details>
-<summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
+<summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version)
 
-* ℹ **INFO** fontbakery (0.7.15)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.15 (latest)
-
+* 🔥 **FAIL** Unable to detect what's the latest version of FontBakery available. Maybe we're offline? Please check Internet access and try again.
 * 🍞 **PASS** Font Bakery is up-to-date
 
 </details>
@@ -193,8 +191,8 @@ See eg https://fonts.google.com/specimen/Rubik
 The set of font binaries available must match exactly those declared on the
 METADATA.pb file.
 
-Also, to avoid confusion, we expect that font files are not placed on
-subdirectories.
+Also, to avoid confusion, we expect that font files (other than statics) are
+not placed on subdirectories.
 
 
 </pre>
@@ -353,29 +351,95 @@ https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds/ftxva
 <br>
 </details>
 <details>
-<summary><b>[132] Karla-Italic[wght].ttf</b></summary>
+<summary><b>[134] Karla-Italic[wght].ttf</b></summary>
 <details>
-<summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+<summary>🔥 <b>FAIL:</b> A static fonts directory with at least two fonts must accompany variable fonts</summary>
 
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+* [com.google.fonts/check/repo/vf_has_static_fonts](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/vf_has_static_fonts)
 <pre>--- Rationale ---
 
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
+Variable font family directories kept in the google/fonts git repo must include
+a static/ subdir containing static fonts.
+These files are meant to be served for users that still lack support for
+variable fonts in their web browsers.
 
 
 </pre>
 
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-Please report this issue at: https://github.com/googlefonts/fontbakery/issues [code: namecheck-service]
+* 🔥 **FAIL** Please create a subdirectory called "static/" and include in it static font files. [code: missing]
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Checking OS/2 usWeightClass.</summary>
+<summary>⚠ <b>WARN:</b> Check copyright namerecords match license file.</summary>
 
-* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+<pre>--- Rationale ---
 
-* ⚠ **WARN** ExtraLight Italic:200 is OK on TTFs, but OTF files with those values will cause bluring on Windows. GlyphsApp users must set an Instance Custom Parameter for the Thin and ExtraLight styles to 250 and 275, so that if OTFs are exported then it will not blur on Windows. [code: blur-on-windows]
+A known licensing description must be provided in the NameID 14 (LICENSE
+DESCRIPTION) entries of the name table.
+
+The source of truth for this check (to determine which license is in use) is a
+file placed side-by-side to your font project including the licensing terms.
+
+Depending on the chosen license, one of the following string snippets is
+expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
+table:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
+* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
+
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> License URL matches License text on name table?</summary>
+
+* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
+<pre>--- Rationale ---
+
+A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
+of the name table.
+
+The source of truth for this check is the licensing text found on the NameID 13
+entry (LICENSE DESCRIPTION).
+
+The string snippets used for detecting licensing terms are:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
+* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
+
 
 </details>
 <details>
@@ -412,6 +476,17 @@ https://github.com/impallari/Raleway/issues/14).
 	- i + l
 
    [code: lacks-kern-info]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check for points out of bounds.</summary>
+
+* [com.google.fonts/check/points_out_of_bounds](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds)
+
+* ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
+	* ('six.dnom', 298.5, 257.875) and ('six.numr', 382.5, 857.875)
+
+This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 
 </details>
 <details>
@@ -1081,10 +1156,10 @@ after ttfautohint usage versus unhinted font files.
 
 |  | Karla-Italic[wght].ttf |
 |:--- | ---:|
-| Dehinted Size | 64.3kb |
-| Hinted Size | 63.9kb |
-| Increase | -412 bytes |
-| Change   | -0.6 % |
+| Dehinted Size | 76.3kb |
+| Hinted Size | 76.0kb |
+| Increase | -368 bytes |
+| Change   | -0.5 % |
  [code: size-impact]
 
 </details>
@@ -1101,7 +1176,7 @@ installed in the system.
 
 </pre>
 
-* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.000'] [code: version-not-detected]
+* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.002'] [code: version-not-detected]
 
 </details>
 <details>
@@ -1156,6 +1231,22 @@ PPM <= 65535:
 
 </details>
 <details>
+<summary>ℹ <b>INFO:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+<pre>--- Rationale ---
+
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
+
+
+</pre>
+
+* ℹ **INFO** The family name "Karla" seems to be already in use.
+Please visit http://namecheck.fontdata.com for more info. [code: name-collision]
+
+</details>
+<details>
 <summary>ℹ <b>INFO:</b> Check for font-v versioning.</summary>
 
 * [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
@@ -1170,7 +1261,7 @@ enforcing it.
 
 </pre>
 
-* ℹ **INFO** Version string is: "Version 2.000"
+* ℹ **INFO** Version string is: "Version 2.002"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 
@@ -1192,7 +1283,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [DSIG, gasp, loca, GPOS, prep, GSUB]
+* ℹ **INFO** This font contains the following optional tables [GPOS, loca, GSUB, DSIG, prep, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1272,19 +1363,11 @@ set of characters defined in the `GF-latin-core` glyph-set.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWeightClass.</summary>
 
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
 
-* 🍞 **PASS** Licensing entry on name table is correctly set.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> License URL matches License text on name table?</summary>
-
-* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
-
-* 🍞 **PASS** Font has a valid license URL in NAME table.
+* 🍞 **PASS** OS/2 usWeightClass value looks good!
 
 </details>
 <details>
@@ -1994,7 +2077,13 @@ font is monospaced.&quot;
 Windows GDI&quot;
   http://typedrawers.com/discussion/comment/15397/#Comment_15397
 
-Also we should report an error for glyphs not of average width
+Also we should report an error for glyphs not of average width.
+
+Please also note:
+Thomas Phinney told us that a few years ago (as of December 2019), if you gave
+a font a monospace flag in Panose, Microsoft Word would ignore the actual
+advance widths and treat it as monospaced. Source:
+https://typedrawers.com/discussion/comment/45140/#Comment_45140
 
 
 </pre>
@@ -2081,14 +2170,18 @@ This is the TTF/CFF2 equivalent of the CFF &#x27;postscript_name_cff_vs_name&#x2
 * [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
 <pre>--- Rationale ---
 
-Some programs expect fonts to have a digital signature declared in their DSIG
-table in order to work properly.
+Microsoft Office 2013 and below products expect fonts to have a digital
+signature declared in a DSIG table in order to implement OpenType features. The
+EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not
+impact Microsoft Office 2016 and above products. 
 
-This checks verifies that such signature is available in the font.
+This checks verifies that this signature is available in the font.
 
-Typically, even a fake signature would be enough to make the fonts work. If
-needed, such dummy-placeholder can be added to the font by using the `gftools
-fix-dsig` script available at https://github.com/googlefonts/gftools
+A fake signature is enough to address this issue. If needed, a dummy table can
+be added to the font with the `gftools fix-dsig` script available at
+https://github.com/googlefonts/gftools
+
+Reference: https://github.com/googlefonts/fontbakery/issues/1845
 
 
 </pre>
@@ -2151,11 +2244,22 @@ good-to-have (but optional) feature.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Check for points out of bounds.</summary>
+<summary>🍞 <b>PASS:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
 
-* [com.google.fonts/check/points_out_of_bounds](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds)
+* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+<pre>--- Rationale ---
 
-* 🍞 **PASS** All glyph paths have coordinates within bounds!
+There has been cases in which fonts had faulty double quote marks, with each of
+them containing two single quote marks as components with the same x, y
+coordinates which makes them visually look like single quote marks.
+
+This check ensures that glyphs do not contain duplicate components which have
+the same x,y coordinates.
+
+
+</pre>
+
+* 🍞 **PASS** Glyphs do not contain duplicate components which have the same x,y coordinates.
 
 </details>
 <details>
@@ -2197,13 +2301,58 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 <br>
 </details>
 <details>
-<summary><b>[132] Karla[wght].ttf</b></summary>
+<summary><b>[134] Karla[wght].ttf</b></summary>
 <details>
-<summary>⚠ <b>WARN:</b> Checking OS/2 usWeightClass.</summary>
+<summary>🔥 <b>FAIL:</b> A static fonts directory with at least two fonts must accompany variable fonts</summary>
 
-* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
+* [com.google.fonts/check/repo/vf_has_static_fonts](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/vf_has_static_fonts)
+<pre>--- Rationale ---
 
-* ⚠ **WARN** ExtraLight:200 is OK on TTFs, but OTF files with those values will cause bluring on Windows. GlyphsApp users must set an Instance Custom Parameter for the Thin and ExtraLight styles to 250 and 275, so that if OTFs are exported then it will not blur on Windows. [code: blur-on-windows]
+Variable font family directories kept in the google/fonts git repo must include
+a static/ subdir containing static fonts.
+These files are meant to be served for users that still lack support for
+variable fonts in their web browsers.
+
+
+</pre>
+
+* 🔥 **FAIL** Please create a subdirectory called "static/" and include in it static font files. [code: missing]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+<pre>--- Rationale ---
+
+A known licensing description must be provided in the NameID 14 (LICENSE
+DESCRIPTION) entries of the name table.
+
+The source of truth for this check (to determine which license is in use) is a
+file placed side-by-side to your font project including the licensing terms.
+
+Depending on the chosen license, one of the following string snippets is
+expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
+table:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
+* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
+
 
 </details>
 <details>
@@ -2337,6 +2486,29 @@ edited by hand.
 <summary>💤 <b>SKIP:</b> License URL matches License text on name table?</summary>
 
 * [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
+<pre>--- Rationale ---
+
+A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
+of the name table.
+
+The source of truth for this check is the licensing text found on the NameID 13
+entry (LICENSE DESCRIPTION).
+
+The string snippets used for detecting licensing terms are:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
 
 * 💤 **SKIP** Unfulfilled Conditions: familyname
 
@@ -2923,10 +3095,10 @@ after ttfautohint usage versus unhinted font files.
 
 |  | Karla[wght].ttf |
 |:--- | ---:|
-| Dehinted Size | 65.6kb |
-| Hinted Size | 65.2kb |
-| Increase | -384 bytes |
-| Change   | -0.6 % |
+| Dehinted Size | 78.0kb |
+| Hinted Size | 77.6kb |
+| Increase | -336 bytes |
+| Change   | -0.4 % |
  [code: size-impact]
 
 </details>
@@ -2943,7 +3115,7 @@ installed in the system.
 
 </pre>
 
-* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.000'] [code: version-not-detected]
+* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.002'] [code: version-not-detected]
 
 </details>
 <details>
@@ -3012,7 +3184,7 @@ enforcing it.
 
 </pre>
 
-* ℹ **INFO** Version string is: "Version 2.000"
+* ℹ **INFO** Version string is: "Version 2.002"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 
@@ -3034,7 +3206,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [DSIG, gasp, loca, GPOS, prep, GSUB]
+* ℹ **INFO** This font contains the following optional tables [GPOS, loca, GSUB, DSIG, prep, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -3114,11 +3286,11 @@ set of characters defined in the `GF-latin-core` glyph-set.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWeightClass.</summary>
 
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
 
-* 🍞 **PASS** Licensing entry on name table is correctly set.
+* 🍞 **PASS** OS/2 usWeightClass value looks good!
 
 </details>
 <details>
@@ -3799,7 +3971,13 @@ font is monospaced.&quot;
 Windows GDI&quot;
   http://typedrawers.com/discussion/comment/15397/#Comment_15397
 
-Also we should report an error for glyphs not of average width
+Also we should report an error for glyphs not of average width.
+
+Please also note:
+Thomas Phinney told us that a few years ago (as of December 2019), if you gave
+a font a monospace flag in Panose, Microsoft Word would ignore the actual
+advance widths and treat it as monospaced. Source:
+https://typedrawers.com/discussion/comment/45140/#Comment_45140
 
 
 </pre>
@@ -3886,14 +4064,18 @@ This is the TTF/CFF2 equivalent of the CFF &#x27;postscript_name_cff_vs_name&#x2
 * [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
 <pre>--- Rationale ---
 
-Some programs expect fonts to have a digital signature declared in their DSIG
-table in order to work properly.
+Microsoft Office 2013 and below products expect fonts to have a digital
+signature declared in a DSIG table in order to implement OpenType features. The
+EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not
+impact Microsoft Office 2016 and above products. 
 
-This checks verifies that such signature is available in the font.
+This checks verifies that this signature is available in the font.
 
-Typically, even a fake signature would be enough to make the fonts work. If
-needed, such dummy-placeholder can be added to the font by using the `gftools
-fix-dsig` script available at https://github.com/googlefonts/gftools
+A fake signature is enough to address this issue. If needed, a dummy table can
+be added to the font with the `gftools fix-dsig` script available at
+https://github.com/googlefonts/gftools
+
+Reference: https://github.com/googlefonts/fontbakery/issues/1845
 
 
 </pre>
@@ -3961,6 +4143,25 @@ good-to-have (but optional) feature.
 * [com.google.fonts/check/points_out_of_bounds](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds)
 
 * 🍞 **PASS** All glyph paths have coordinates within bounds!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
+
+* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+<pre>--- Rationale ---
+
+There has been cases in which fonts had faulty double quote marks, with each of
+them containing two single quote marks as components with the same x, y
+coordinates which makes them visually look like single quote marks.
+
+This check ensures that glyphs do not contain duplicate components which have
+the same x,y coordinates.
+
+
+</pre>
+
+* 🍞 **PASS** Glyphs do not contain duplicate components which have the same x,y coordinates.
 
 </details>
 <details>
@@ -4044,5 +4245,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 0 | 7 | 131 | 13 | 141 | 0 |
-| 0% | 0% | 2% | 45% | 4% | 48% | 0% |
+| 0 | 3 | 9 | 131 | 13 | 141 | 0 |
+| 0% | 1% | 3% | 44% | 4% | 47% | 0% |
