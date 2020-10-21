@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
 .appVersion = "1295";
+=======
+.appVersion = "1348";
+>>>>>>> Stashed changes
 classes = (
 {
 automatic = 1;
