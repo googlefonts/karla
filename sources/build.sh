@@ -110,7 +110,7 @@ done
 # # Fix Hinting ================================================================
 
 statics=$(ls ./fonts/ttf/*.ttf)
-echo Hi Mirko I am trying to fix the hinting
+echo "Hi Mirko I am trying to fix the hinting"
 for file in $statics; do 
 	echo "fix hinting in " ${file}
 	# fix hinting 
