@@ -1,0 +1,27 @@
+The entire project was basically expanding Karla from 4 -> 12 weights and drawing additional characters to meet the fb glyphset requirements at the time. which I think was gf+
+
+Karla had been ported to a project Karmilla which was using fontforge files if I recall correctly. I converted it back to glyphs. 
+
+Removed extraneous masters, and tried to land everything on the same advance widths as before. Things were a little different, with a shift from 1000 to 2000 upm, but not enough to be 'noticeable'. Also the changes were deemed necessary for the goal of expanding the range of styles. 
+
+
+requirements.txt probably needs to be updated if you're going to use a requirements.txt
+otherwise it can probably be trashed
+
+stat table fixing hasn't been done
+
+name needs to be brought forward to the present convention i.e.
+
+Karla[wght].ttf
+Karla-Italic[wght].ttf
+
+probably has fails now as fontbakery has updated several times since the initial pr. 
+
+nothing critical in terms of the drawing should be present. 
+
+The Readme needs to be updated. Should probably say (Karla is a combination of the original Karla, and Karmilla, an offshoot of Karla)
+Idk how important that is. 
+
+The Fontlogs should probably be merged. 
+
+
