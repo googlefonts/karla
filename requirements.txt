@@ -1,0 +1,6 @@
+fontmake
+fontbakery
+gftools
+afdko
+statmake
+brotli
