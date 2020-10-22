@@ -24,8 +24,9 @@ ChangeLog
 
 1 July 2019 (Mirko Velimirovic)  Karla v2.000
 - Converted Karla to Variable font with 12 styles.
+- Completed glyphset to support Western, Central, and South-Eastern European languages.
 
-11 March 2012 (Jonathan Pinhorn) Karla v1.000\
+11 March 2012 (Jonathan Pinhorn) Karla v1.000
 - Initial release
 
 Acknowledgements
@@ -34,10 +35,10 @@ If you make modifications be sure to add your name (N),
 email (E), web-address (if you have one) (W) and
 description (D). This list is in alphabetical order.
 
-N: Mirko Velimirovic
-E: bghryct@gmail.com
-D: Designer
-
 N: Jonathan Pinhorn
 E: jonpinhorn.typedesign@gmail.com
+D: Designer
+
+N: Mirko Velimirovic
+E: bghryct@gmail.com
 D: Designer
