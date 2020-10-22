@@ -57,6 +57,9 @@ otfs=$(ls ../fonts/otf/*.otf)
 for otf in $otfs
 do
     gftools fix-dsig -f $otf;
+    gftools fix-weightclass $otf;
+    #mv "$otf.fix" $otf;
+	[ -f $otf.fix ] && mv $otf.fix $otf;
     # psautohint $otf;
 done
 
