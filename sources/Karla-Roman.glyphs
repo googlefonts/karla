@@ -1,7 +1,8 @@
 {
 .appVersion = "1342";
 DisplayStrings = (
-"/.null \015/space ,.;:-/endash/emdash !abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'/apostrophe/quoteleft/quoteright ()+/minus =0123456789$?£`´àèòÀÈùáéóúÁÉÌÍÒÓÙÚ/circumflex âêôûÂÊÎÔÛ/tilde &@¨äëöüÄËÏÖÜìíîï<>\"#*//%/backslash |[]^_{}~ãñõÃÑÕ/Abreve/Amacron/Aogonek ÅÆ/Cacute/Ccaron Ç/Cdotaccent Ð/Dcaron/Dcroat/Ecaron/Edotaccent/Emacron/Eogonek/Gbreve/Gcommaaccent/Gdotaccent/Hbar/Idotaccent/Imacron/Iogonek/Kcommaaccent/Lacute/Lcaron/Lcommaaccent/Lslash/Nacute/Ncaron/Ncommaaccent/Eng/Ohungarumlaut/Omacron Ø/OE Þ/Racute/Rcaron/Rcommaaccent/Sacute/Scaron/Scedilla/Scommaaccent/Germandbls/Tbar/Tcaron/Tcedilla/Tcommaaccent/Uhungarumlaut/Umacron/Uogonek/Uring/Wacute/Wcircumflex/Wdieresis/Wgrave Ý/Ycircumflex/Ydieresis/Ygrave/Zacute/Zcaron/Zdotaccent/abreve/amacron/aogonek åæ/cacute/ccaron ç/cdotaccent ð/dcaron/dcroat/ecaron/edotaccent/emacron/eogonek/gbreve/gcommaaccent/gdotaccent/hbar/idotless/idotaccent/imacron/iogonek/jdotless/kcommaaccent/lacute/lcaron/lcommaaccent/lslash/nacute/ncaron/ncommaaccent/eng/ohungarumlaut/omacron ø/oe þ/racute/rcaron/rcommaaccent/sacute/scaron/scedilla/scommaaccent ß/tbar/tcaron/tcedilla/tcommaaccent/uhungarumlaut/umacron/uogonek/uring/wacute/wcircumflex/wdieresis/wgrave ý/ycircumflex/ydieresis/ygrave/zacute/zcaron/zdotaccent/fi/fl ªº/Delta/Omega/mu/pi/zero.propold/one.propold/two.propold/three.propold/four.propold/five.propold/six.propold/seven.propold/eight.propold/nine.propold/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½¼¾/oneeighth/threeeighths/fiveeighths/seveneighths/ellipsis ¡¿·/bullet/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf ­/hyphen.tf/underscore.tf/quotesinglbase/quotedblbase/quotedblleft/quotedblright «»/guilsinglleft/guilsinglright/quotedbl.tf/nbspace/.notdef ¢¤/euro/florin/rupee ¥/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf/DivisionSlash ×÷/notequal/greaterequal/lessequal ±/approxequal ¬/infinity/emptyset/integral/product/summation/radical µ/partialdiff/perthousand/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf/lozenge ¶§©®/trademark °¦/dagger/daggerdbl/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/commaturnedabovecomb/commaaccentcomb/cedillacomb/ogonekcomb/breve/caron ¸/dotaccent/hungarumlaut ¯/ogonek/ring"
+"/.null \015/space ,.;:-/endash/emdash !abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'/apostrophe/quoteleft/quoteright ()+/minus =0123456789$?£`´àèòÀÈùáéóúÁÉÌÍÒÓÙÚ/circumflex âêôûÂÊÎÔÛ/tilde &@¨äëöüÄËÏÖÜìíîï<>\"#*//%/backslash |[]^_{}~ãñõÃÑÕ/Abreve/Amacron/Aogonek ÅÆ/Cacute/Ccaron Ç/Cdotaccent Ð/Dcaron/Dcroat/Ecaron/Edotaccent/Emacron/Eogonek/Gbreve/Gcommaaccent/Gdotaccent/Hbar/Idotaccent/Imacron/Iogonek/Kcommaaccent/Lacute/Lcaron/Lcommaaccent/Lslash/Nacute/Ncaron/Ncommaaccent/Eng/Ohungarumlaut/Omacron Ø/OE Þ/Racute/Rcaron/Rcommaaccent/Sacute/Scaron/Scedilla/Scommaaccent/Germandbls/Tbar/Tcaron/Tcedilla/Tcommaaccent/Uhungarumlaut/Umacron/Uogonek/Uring/Wacute/Wcircumflex/Wdieresis/Wgrave Ý/Ycircumflex/Ydieresis/Ygrave/Zacute/Zcaron/Zdotaccent/abreve/amacron/aogonek åæ/cacute/ccaron ç/cdotaccent ð/dcaron/dcroat/ecaron/edotaccent/emacron/eogonek/gbreve/gcommaaccent/gdotaccent/hbar/idotless/idotaccent/imacron/iogonek/jdotless/kcommaaccent/lacute/lcaron/lcommaaccent/lslash/nacute/ncaron/ncommaaccent/eng/ohungarumlaut/omacron ø/oe þ/racute/rcaron/rcommaaccent/sacute/scaron/scedilla/scommaaccent ß/tbar/tcaron/tcedilla/tcommaaccent/uhungarumlaut/umacron/uogonek/uring/wacute/wcircumflex/wdieresis/wgrave ý/ycircumflex/ydieresis/ygrave/zacute/zcaron/zdotaccent/fi/fl ªº/Delta/Omega/mu/pi/zero.propold/one.propold/two.propold/three.propold/four.propold/five.propold/six.propold/seven.propold/eight.propold/nine.propold/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½¼¾/oneeighth/threeeighths/fiveeighths/seveneighths/ellipsis ¡¿·/bullet/period.tf/comma.tf/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf/numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf ­/hyphen.tf/underscore.tf/quotesinglbase/quotedblbase/quotedblleft/quotedblright «»/guilsinglleft/guilsinglright/quotedbl.tf/nbspace/.notdef ¢¤/euro/florin/rupee ¥/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf/DivisionSlash ×÷/notequal/greaterequal/lessequal ±/approxequal ¬/infinity/emptyset/integral/product/summation/radical µ/partialdiff/perthousand/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf/lozenge ¶§©®/trademark °¦/dagger/daggerdbl/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/commaturnedabovecomb/commaaccentcomb/cedillacomb/ogonekcomb/breve/caron ¸/dotaccent/hungarumlaut ¯/ogonek/ring",
+"/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom"
 );
 classes = (
 {
@@ -248,7 +249,7 @@ familyName = Karla;
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem cyrl dflt;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn KAZ;\012languagesystem latn TRK;\012languagesystem latn CRT;\012languagesystem latn AZE;\012languagesystem cyrl TAT;\012";
+code = "languagesystem DFLT dflt;\012\012languagesystem latn dflt;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn ROM;\012languagesystem latn MOL;\012";
 name = Languagesystems;
 }
 );
@@ -265,7 +266,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "script latn;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012\012script cyrl;\012language TAT;\012sub i by idotaccent;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012";
 name = locl;
 },
 {
@@ -315,7 +316,7 @@ name = tnum;
 },
 {
 automatic = 1;
-code = "sub f i by fi;\012sub f l by fl;\012";
+code = "lookupflag IgnoreMarks;\012sub f i by fi;\012sub f l by fl;\012";
 name = liga;
 }
 );
@@ -36906,17 +36907,28 @@ width = 1200;
 unicode = 00A7;
 },
 {
+color = 4;
 glyphname = copyright;
-lastChange = "2020-10-22 18:08:06 +0000";
+lastChange = "2020-10-22 19:45:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{668.084, 227}";
+},
+{
+name = top;
+position = "{671.866, 991.627}";
+}
+);
+background = {
 components = (
 {
 name = C;
 transform = "{0.63036, 0, 0, 0.63036, 276, 227}";
 }
 );
-layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
 paths = (
 {
 closed = 1;
@@ -36953,15 +36965,96 @@ nodes = (
 );
 }
 );
+};
+layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+paths = (
+{
+closed = 1;
+nodes = (
+"1010 -12 OFFCURVE",
+"1288 266 OFFCURVE",
+"1288 608 CURVE SMOOTH",
+"1288 950 OFFCURVE",
+"1010 1228 OFFCURVE",
+"668 1228 CURVE SMOOTH",
+"326 1228 OFFCURVE",
+"48 950 OFFCURVE",
+"48 608 CURVE SMOOTH",
+"48 266 OFFCURVE",
+"326 -12 OFFCURVE",
+"668 -12 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"352 35 OFFCURVE",
+"95 292 OFFCURVE",
+"95 608 CURVE SMOOTH",
+"95 924 OFFCURVE",
+"352 1181 OFFCURVE",
+"668 1181 CURVE SMOOTH",
+"984 1181 OFFCURVE",
+"1241 924 OFFCURVE",
+"1241 608 CURVE SMOOTH",
+"1241 292 OFFCURVE",
+"984 35 OFFCURVE",
+"668 35 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"832 214 OFFCURVE",
+"960 314 OFFCURVE",
+"960 471 CURVE",
+"906 471 LINE",
+"906 340 OFFCURVE",
+"808 256 OFFCURVE",
+"665 256 CURVE SMOOTH",
+"475 256 OFFCURVE",
+"395 421 OFFCURVE",
+"395 618 CURVE SMOOTH",
+"395 841 OFFCURVE",
+"524 963 OFFCURVE",
+"665 963 CURVE SMOOTH",
+"773 963 OFFCURVE",
+"867 895 OFFCURVE",
+"906 783 CURVE",
+"958 797 LINE",
+"910 919 OFFCURVE",
+"811 1003 OFFCURVE",
+"665 1003 CURVE SMOOTH",
+"488 1003 OFFCURVE",
+"344 867 OFFCURVE",
+"344 618 CURVE SMOOTH",
+"344 392 OFFCURVE",
+"462 214 OFFCURVE",
+"665 214 CURVE SMOOTH"
+);
+}
+);
 width = 1336;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{741.184, 273}";
+},
+{
+name = top;
+position = "{717.404, 1070.832}";
+}
+);
+background = {
 components = (
 {
 name = C;
 transform = "{0.59451, 0, 0, 0.59451, 328, 273}";
 }
 );
+};
 layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
 paths = (
 {
@@ -36997,11 +37090,53 @@ nodes = (
 "1025 142 OFFCURVE",
 "733 142 CURVE SMOOTH"
 );
+},
+{
+closed = 1;
+nodes = (
+"939 254 OFFCURVE",
+"1053 355 OFFCURVE",
+"1053 540 CURVE",
+"853 540 LINE",
+"853 478 OFFCURVE",
+"812 429 OFFCURVE",
+"731 429 CURVE SMOOTH",
+"644 429 OFFCURVE",
+"583 507 OFFCURVE",
+"583 671 CURVE SMOOTH",
+"583 838 OFFCURVE",
+"642 916 OFFCURVE",
+"731 916 CURVE SMOOTH",
+"797 916 OFFCURVE",
+"834 866 OFFCURVE",
+"853 797 CURVE",
+"1055 832 LINE",
+"1035 984 OFFCURVE",
+"932 1089 OFFCURVE",
+"731 1089 CURVE SMOOTH",
+"521 1089 OFFCURVE",
+"378 946 OFFCURVE",
+"378 671 CURVE SMOOTH",
+"378 396 OFFCURVE",
+"522 254 OFFCURVE",
+"731 254 CURVE SMOOTH"
+);
 }
 );
 width = 1465;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{692.493, 242}";
+},
+{
+name = top;
+position = "{686.927, 1018.723}";
+}
+);
+background = {
 components = (
 {
 alignment = -1;
@@ -37009,6 +37144,43 @@ name = C;
 transform = "{0.61841, 0, 0, 0.61841, 293, 242}";
 }
 );
+paths = (
+{
+closed = 1;
+nodes = (
+"1043 -12 OFFCURVE",
+"1331 275 OFFCURVE",
+"1331 629 CURVE SMOOTH",
+"1331 983 OFFCURVE",
+"1043 1271 OFFCURVE",
+"690 1271 CURVE SMOOTH",
+"336 1271 OFFCURVE",
+"48 983 OFFCURVE",
+"48 629 CURVE SMOOTH",
+"48 275 OFFCURVE",
+"336 -12 OFFCURVE",
+"690 -12 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"382 71 OFFCURVE",
+"131 321 OFFCURVE",
+"131 629 CURVE SMOOTH",
+"131 937 OFFCURVE",
+"382 1188 OFFCURVE",
+"690 1188 CURVE SMOOTH",
+"998 1188 OFFCURVE",
+"1248 937 OFFCURVE",
+"1248 629 CURVE SMOOTH",
+"1248 321 OFFCURVE",
+"998 71 OFFCURVE",
+"690 71 CURVE SMOOTH"
+);
+}
+);
+};
 layerId = "26C860F9-3A1D-441D-9B2D-5C5CFD026C88";
 paths = (
 {
@@ -37043,6 +37215,37 @@ nodes = (
 "1248 321 OFFCURVE",
 "998 71 OFFCURVE",
 "690 71 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"868 227 OFFCURVE",
+"992 327 OFFCURVE",
+"992 494 CURVE",
+"887 494 LINE",
+"887 387 OFFCURVE",
+"809 315 OFFCURVE",
+"687 315 CURVE SMOOTH",
+"533 315 OFFCURVE",
+"459 450 OFFCURVE",
+"459 635 CURVE SMOOTH",
+"459 839 OFFCURVE",
+"564 946 OFFCURVE",
+"687 946 CURVE SMOOTH",
+"781 946 OFFCURVE",
+"855 884 OFFCURVE",
+"887 787 CURVE",
+"991 808 LINE",
+"952 941 OFFCURVE",
+"852 1032 OFFCURVE",
+"687 1032 CURVE SMOOTH",
+"499 1032 OFFCURVE",
+"355 894 OFFCURVE",
+"355 635 CURVE SMOOTH",
+"355 393 OFFCURVE",
+"481 227 OFFCURVE",
+"687 227 CURVE SMOOTH"
 );
 }
 );
@@ -37052,16 +37255,29 @@ width = 1379;
 unicode = 00A9;
 },
 {
+color = 4;
 glyphname = registered;
-lastChange = "2020-10-22 18:08:06 +0000";
+lastChange = "2020-10-22 19:48:47 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{679.6, 243}";
+},
+{
+name = top;
+position = "{679.6, 970.8}";
+}
+);
+background = {
 components = (
 {
 name = R;
-transform = "{0.58857, 0, 0, 0.58857, 335, 261}";
+transform = "{0.6, 0, 0, 0.6, 331, 243}";
 }
 );
+};
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
 paths = (
 {
@@ -37097,17 +37313,68 @@ nodes = (
 "984 35 OFFCURVE",
 "668 35 CURVE SMOOTH"
 );
+},
+{
+closed = 1;
+nodes = (
+"942 243 LINE",
+"711 562 LINE",
+"660 562 LINE",
+"885 243 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"506 243 LINE",
+"506 556 LINE",
+"699 556 LINE SMOOTH",
+"856 556 OFFCURVE",
+"932 641 OFFCURVE",
+"932 764 CURVE SMOOTH",
+"932 886 OFFCURVE",
+"856 971 OFFCURVE",
+"699 971 CURVE SMOOTH",
+"462 971 LINE",
+"462 243 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"506.2 933.6 LINE",
+"698.8 933.6 LINE SMOOTH",
+"820.6 933.6 OFFCURVE",
+"886.6 869.4 OFFCURVE",
+"886.6 765 CURVE SMOOTH",
+"886.6 662.4 OFFCURVE",
+"820.6 592.8 OFFCURVE",
+"699.4 592.8 CURVE SMOOTH",
+"506.2 592.8 LINE"
+);
 }
 );
 width = 1336;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{738.675, 307}";
+},
+{
+name = top;
+position = "{738.675, 1058.748}";
+}
+);
+background = {
 components = (
 {
 name = R;
 transform = "{0.56017, 0, 0, 0.56017, 360, 307}";
 }
 );
+};
 layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
 paths = (
 {
@@ -37143,11 +37410,61 @@ nodes = (
 "1025 142 OFFCURVE",
 "733 142 CURVE SMOOTH"
 );
+},
+{
+closed = 1;
+nodes = (
+"1080 307 LINE",
+"852 670 LINE",
+"663 670 LINE",
+"846 307 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"633 307 LINE",
+"633 586 LINE",
+"747 586 LINE SMOOTH",
+"935 586 OFFCURVE",
+"1045 679 OFFCURVE",
+"1045 821 CURVE SMOOTH",
+"1045 966 OFFCURVE",
+"935 1059 OFFCURVE",
+"747 1059 CURVE SMOOTH",
+"454 1059 LINE",
+"454 307 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"633 904 LINE",
+"747 904 LINE SMOOTH",
+"823 904 OFFCURVE",
+"860 861 OFFCURVE",
+"860 801 CURVE SMOOTH",
+"860 743 OFFCURVE",
+"816 702 OFFCURVE",
+"727 702 CURVE SMOOTH",
+"633 702 LINE"
+);
 }
 );
 width = 1465;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{697.988, 276}";
+},
+{
+name = top;
+position = "{697.988, 1003.35}";
+}
+);
+background = {
 components = (
 {
 alignment = -1;
@@ -37155,6 +37472,7 @@ name = R;
 transform = "{0.5791, 0, 0, 0.5791, 343, 276}";
 }
 );
+};
 layerId = "26C860F9-3A1D-441D-9B2D-5C5CFD026C88";
 paths = (
 {
@@ -37190,6 +37508,45 @@ nodes = (
 "998 71 OFFCURVE",
 "690 71 CURVE SMOOTH"
 );
+},
+{
+closed = 1;
+nodes = (
+"984 276 LINE",
+"757 606 LINE",
+"658 606 LINE",
+"867 276 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"549 276 LINE",
+"549 574 LINE",
+"713 574 LINE SMOOTH",
+"878 574 OFFCURVE",
+"965 661 OFFCURVE",
+"965 788 CURVE SMOOTH",
+"965 916 OFFCURVE",
+"878 1003 OFFCURVE",
+"713 1003 CURVE SMOOTH",
+"459 1003 LINE",
+"459 276 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"549 926 LINE",
+"713 926 LINE SMOOTH",
+"817 926 OFFCURVE",
+"872 870 OFFCURVE",
+"872 782 CURVE SMOOTH",
+"872 696 OFFCURVE",
+"815 637 OFFCURVE",
+"706 637 CURVE SMOOTH",
+"549 637 LINE"
+);
 }
 );
 width = 1379;
@@ -37198,10 +37555,26 @@ width = 1379;
 unicode = 00AE;
 },
 {
+color = 4;
 glyphname = trademark;
-lastChange = "2020-02-19 16:22:19 +0000";
+lastChange = "2020-10-22 19:46:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{228.5, 926.5}";
+},
+{
+name = center;
+position = "{234.5, 1245.5}";
+},
+{
+name = top;
+position = "{234.5, 1548.5}";
+}
+);
+background = {
 components = (
 {
 alignment = -1;
@@ -37214,39 +37587,158 @@ name = M;
 transform = "{0.5, 0, 0, 0.5, 469, 942}";
 }
 );
+};
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
+paths = (
+{
+closed = 1;
+nodes = (
+"225 1518 LINE",
+"216 1526 LINE",
+"216 942 LINE",
+"253 942 LINE",
+"253 1526 LINE",
+"245 1518 LINE",
+"464 1518 LINE",
+"464 1549 LINE",
+"7 1549 LINE",
+"7 1518 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"577 942 LINE",
+"614 942 LINE",
+"614 1520 LINE",
+"608 1520 LINE",
+"865 1029 LINE",
+"892 1029 LINE",
+"1150 1524 LINE",
+"1140 1524 LINE",
+"1140 942 LINE",
+"1178 942 LINE",
+"1178 1549 LINE",
+"1125 1549 LINE",
+"875 1077 LINE",
+"881 1077 LINE",
+"631 1549 LINE",
+"577 1549 LINE"
+);
+}
+);
 width = 1288;
 },
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = T;
-transform = "{0.5, 0, 0, 0.5, 0, 989}";
+name = bottom;
+position = "{242, 1004}";
 },
 {
-alignment = -1;
-name = M;
-transform = "{0.5, 0, 0, 0.5, 564, 989}";
+name = center;
+position = "{282, 1324.5}";
+},
+{
+name = top;
+position = "{282, 1660}";
 }
 );
 layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
+paths = (
+{
+closed = 1;
+nodes = (
+"240 1522 LINE",
+"204 1558 LINE",
+"204 989 LINE",
+"364 989 LINE",
+"364 1558 LINE",
+"328 1522 LINE",
+"560 1522 LINE",
+"560 1660 LINE",
+"7 1660 LINE",
+"7 1522 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"648 989 LINE",
+"808 989 LINE",
+"808 1466 LINE",
+"795 1466 LINE",
+"966 1052 LINE",
+"1070 1052 LINE",
+"1242 1467 LINE",
+"1220 1467 LINE",
+"1220 989 LINE",
+"1381 989 LINE",
+"1381 1660 LINE",
+"1161 1660 LINE",
+"1013 1302 LINE",
+"1025 1302 LINE",
+"877 1660 LINE",
+"648 1660 LINE"
+);
+}
+);
 width = 1468;
 },
 {
-components = (
+anchors = (
 {
-alignment = -1;
-name = T;
-transform = "{0.5, 0, 0, 0.5, 0, 958}";
+name = bottom;
+position = "{233, 952.5}";
 },
 {
-alignment = -1;
-name = M;
-transform = "{0.5, 0, 0, 0.5, 501, 958}";
+name = center;
+position = "{250.5, 1272}";
+},
+{
+name = top;
+position = "{250.5, 1586}";
 }
 );
 layerId = "26C860F9-3A1D-441D-9B2D-5C5CFD026C88";
+paths = (
+{
+closed = 1;
+nodes = (
+"229 1519 LINE",
+"211 1537 LINE",
+"211 958 LINE",
+"289 958 LINE",
+"289 1537 LINE",
+"272 1519 LINE",
+"495 1519 LINE",
+"495 1586 LINE",
+"6 1586 LINE",
+"6 1519 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"602 958 LINE",
+"680 958 LINE",
+"680 1502 LINE",
+"671 1502 LINE",
+"900 1037 LINE",
+"952 1037 LINE",
+"1182 1505 LINE",
+"1168 1505 LINE",
+"1168 958 LINE",
+"1247 958 LINE",
+"1247 1586 LINE",
+"1138 1586 LINE",
+"922 1152 LINE",
+"930 1152 LINE",
+"714 1586 LINE",
+"602 1586 LINE"
+);
+}
+);
 width = 1348;
 }
 );
