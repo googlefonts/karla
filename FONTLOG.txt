@@ -1,116 +1,43 @@
-FONTLOG for the Karmilla font
+FONTLOG for the Karla font
 
-This file provides detailed information on Karmilla Font Software.
-This information should be distributed along with the Karmilla
+This file provides detailed information on Karla Font Software.\
+This information should be distributed along with the Karla\
 font and any derivative works.
 
 Basic Font Information
 
-Karmilla is a modified version of Karla, a Unicode grotesque sans serif
-typeface family that supports languages that use the Latin script and
-the Tamil script. This is the Latin script subset of the family.
+Karla is a Unicode grotesque sans serif typeface family 
+that supports languages that use the Latin script and 
+the Tamil script. This is the Latin script subset of 
+the family.
 
-The aim of Karmilla is to optimize Karla for the support of the French
-language, which requires adding and modifiying some glyphs.
+The source release includes Glyphs Files\
 
-To contribute to Karmilla, just use the github repository:
-https://github.com/ms-studio/karmilla/
+    Karla-Italic.glyphs
+    Karla-Roman.glyphs
 
+
+To contribute to the project contact Jonathan Pinhorn\
+jonpinhorn.typedesign@gmail.com
 
 ChangeLog
 
-11 December 2018 (Thomas Linard)
-- Improvement of directory structure.
+1 July 2019 (Mirko Velimirovic)  Karla v2.000
+- Converted Karla to Variable font with 12 styles.
 
-18 November 2018 (Andrew Shadura)
-- Improvements to Cyrillic glyphs.
-
-29 January 2018 (Stefan Peev)
-- Added Cyrillic glyphs to Regular.
-
-23 September 2017 (Andrew Shadura)
-- Added missing bold Ľ/ľ.
-- Fix of caron-comma sizes.
-- Added Hungarian umlauts to Bold.
-
-23 May 2016 (ms-studio) Karmilla v.016
-- Adding turkish glyphs to the Bold version, in response to issue #36.
-
-2 February 2016 (nclm)
-- Fixing webfonts (vertical metrics).
-
-23 December 2015 (Andrew Shadura)
-- Fix of "dcaron".
-- Added Hungarian unmlauts to Regular.
-
-22 October 2015 (ms-studio) Karmilla v.015
-- New glyphs contributed by Jonathan Pinhorn: Æ, ß, Ð, ð, Þ, þ.
-- The icelandic alphabet is now fully supported.
-- New glyphs contributed by Andrew Shadura: Ľ, ľ (for Slovak).
-
-22 September 2015 (ms-studio) Karmilla v.014+
-- Added a hand-drawn ogonek (U+02DB), which allows to produce some more combined characters (Ąą...). 
-- Added a hand-drawn breve (U+02D8), which also alows more combined glyphs (Ăă...). 
-- Added polish Ł and ł, © and ®, the ¥ symbol.
-
-18 September 2015 (ms-studio) Karmilla v.014
-- Added ø, uppercase Æ, and many combined characters.
-
-10 September 2015 (nclm) Karmilla v.013
-- Added single guillemets (‹›).
-- Added eszett (ß) / 18 April 2015 (contributed by Botho).
-
-4 May 2014 (nclm) Karmilla v.012
-- Added ellipsis (…).
-- Added inverted question and exclamation marks (¿¡).
-- Added interrobang and irony mark (‽⸮).
-- Added multiplication sign (×).
-
-16 April 2014 (nclm) Karmilla v.011
-- Added quotation marks variants (U+2018 to U+201F).
-- Removed overlap between letter and cedilla in Ç and ç.
-
-15 April 2014 (nclm) Karmilla v.010
-- Standardised the heights of apostrophe (U+02BC), left single quote (U+2018) and right single quote (U+2019), across both Regular and Bold.
-
-8 may 2013 (Raphaël Bastide) Karmilla v.009
-- Added french quotes «» and Bitcoin proposal Ƀ in both bold and regular.
-- Added Euro € and Bitcoin proposal Ƀ in both bold and regular.
-- Previously solved by ms-studio: name issue between bold and regular font versions.
-
-22 April 2013 (ms-studio) Karmilla v.009
-- Fixed a naming bug, improved rendering of accented characters on high-resolution (retina) devices.
-
-12 October 2012 (ms-studio) Karmilla v.008
-- Added slavic š, ć and ž in order to accomodate Greyscale Press website. Used existing Karla diacritics (turning the ^ upside down).
-
-7 October 2012 (ms-studio) Karmilla v.007
-- Inspired by a tweet from Olov Källgarn (@mc68ec040), I started adding å, æ and ø for Scandinavian languages.
-
-28 September 2012 (ms-studio) Karmilla v.006
-- Still not convinced by the cedilla. Copy-pasted the cedilla from Arimo (Regular and Bold),
-a clean sans-serif font by Steve Matteson. I think this one works fine with Karla.
-
-11 September 2012 (ms-studio) Karmilla v.005
-- Not convinced by the hand drawn cedilla. Copy-pasted the cedilla from Inconsolata
-(Regular and Bold), a beautiful monospaced font by Raph Levien.
-
-14 August 2012 (ms-studio) Karmilla v.004
-- Added a hand drawn ç (cedilla) to Regular (U+00E7)
-- Added œ (ligature of o and e) to Regular (U+0153)
-- Streamlined the q character.
-- Changed the position of apostrophe (aligned on l) (U+2019)
-
-11 March 2012 (Jonathan Pinhorn) Karla v1.000
+11 March 2012 (Jonathan Pinhorn) Karla v1.000\
 - Initial release
 
 Acknowledgements
 
 If you make modifications be sure to add your name (N),
-email (if you have one) (E), web-address (if you have one) (W),
-twitter handle (if you have one) (T) github handle (G) and description (D).
-This list is in chronological order.
+email (E), web-address (if you have one) (W) and
+description (D). This list is in alphabetical order.
 
-N: Jonny Pinhorn
+N: Mirko Velimirovic
+E: bghryct@gmail.com
+D: Designer
+
+N: Jonathan Pinhorn
 E: jonpinhorn.typedesign@gmail.com
 D: Designer
