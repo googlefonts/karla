@@ -16,8 +16,6 @@ language, which requires adding and modifiying some glyphs.
 To contribute to Karmilla, just use the github repository:
 https://github.com/ms-studio/karmilla/
 
-To contribute to Karla contact Jonathan Pinhorn:
-@jonpinhorn_type
 
 ChangeLog
 
@@ -116,38 +114,3 @@ This list is in chronological order.
 N: Jonny Pinhorn
 E: jonpinhorn.typedesign@gmail.com
 D: Designer
-
-N: Manuel Schmalstieg
-T: @greyscalepress
-W: greyscalepress.com
-D: Modification of some glyphs
-
-N: Raphaël Bastide
-T: @raphaelbastide
-W: raphaelbastide.com
-D: Modification of some glyphs
-
-N: Nicolas Maravitti
-T: @nclm_
-W: probablement.net
-D: Modification of some glyphs
-
-N: Andrej Shadura
-G: andrewshadura
-W: shadura.me
-D: Modification of some glyphs
-
-N: Botho
-G: elbotho
-W: botho.cc
-D: Modification of some glyphs
-
-N: Stefan Peev
-G: StefanPeev
-W: localfonts.eu
-D: Creation of cyrillic glyphs
-
-N: Thomas Linard
-G: thlinard
-D: Directory structure
-
