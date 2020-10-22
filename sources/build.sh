@@ -17,7 +17,6 @@ fontmake -g Karla-Roman.glyphs -o variable --output-path $VF_FILE
 VF_FILEit=../fonts/ttf/Karla-Italic\[wght]\.ttf
 fontmake -g Karla-Italic.glyphs -o variable --output-path $VF_FILEit
 
-rm -rf master_ufo/ instance_ufo/
 
 echo "POST PROCESSING VFs"
 
@@ -63,6 +62,8 @@ do
     # psautohint $otf;
 done
 
+
+rm -rf master_ufo/ instance_ufo/
 
 # echo "WOFF2 for static and vf"
 
