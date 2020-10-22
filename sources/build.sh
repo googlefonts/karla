@@ -57,7 +57,7 @@ otfs=$(ls ../fonts/otf/*.otf)
 for otf in $otfs
 do
     gftools fix-dsig -f $otf;
-    psautohint $otf;
+    # psautohint $otf;
 done
 
 
