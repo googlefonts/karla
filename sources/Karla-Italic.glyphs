@@ -1,5 +1,5 @@
 {
-.appVersion = "1295";
+.appVersion = "1342";
 classes = (
 {
 automatic = 1;
@@ -12,7 +12,7 @@ code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c 
 name = All;
 }
 );
-copyright = "Copyright 2019 The Karla Project Authors (https://github.com/bghryct/karmilla)";
+copyright = "Copyright 2019 The Karla Project Authors (https://github.com/googlefonts/karla)";
 customParameters = (
 {
 name = trademark;
@@ -34,7 +34,7 @@ value = (
 );
 },
 {
-name = openTypeOS2Type;
+name = fsType;
 value = (
 );
 },
@@ -215,11 +215,11 @@ value = GOOG;
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = Axes;
@@ -416,7 +416,6 @@ descender = -504;
 id = "3D647E92-BB94-42FD-9C12-A678B6C1687F";
 italicAngle = 8;
 weightValue = 71;
-widthValue = 100;
 xHeight = 956;
 },
 {

@@ -48,6 +48,7 @@ gftools fix-unwanted-tables $VF_FILE -t MVAR
 # for otf in $otfs
 # do
 #     gftools fix-dsig -f $otf;
+#     psautohint $otf;
 # done
 
 
