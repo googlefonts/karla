@@ -13,7 +13,7 @@ echo "POST PROCESSING VFs"
 gftools fix-nonhinting $VF_FILE $VF_FILE.fix
 mv $VF_FILE.fix $VF_FILE
 
-rm ../fonts/variable/*gasp.ttf
+rm ../fonts/ttf/*gasp.ttf
 
 gftools fix-dsig -f $VF_FILE
 gftools fix-unwanted-tables $VF_FILE -t MVAR
