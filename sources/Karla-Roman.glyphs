@@ -12,7 +12,7 @@ code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c 
 name = All;
 }
 );
-copyright = "Copyright 2019 The Karla Project Authors (https://github.com/bghryct/karla)";
+copyright = "Copyright 2019 The Karla Project Authors (https://github.com/googlefonts/karla)";
 customParameters = (
 {
 name = trademark;
