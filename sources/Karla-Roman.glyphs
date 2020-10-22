@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-.appVersion = "1295";
-=======
-.appVersion = "1348";
->>>>>>> Stashed changes
+.appVersion = "1342";
 classes = (
 {
 automatic = 1;
@@ -16,7 +12,7 @@ code = "CR space comma period semicolon colon hyphen endash emdash exclam a b c 
 name = All;
 }
 );
-copyright = "Copyright 2019 The Karla Project Authors (https://github.com/bghryct/karmilla)";
+copyright = "Copyright 2019 The Karla Project Authors (https://github.com/bghryct/karla)";
 customParameters = (
 {
 name = trademark;
@@ -38,7 +34,7 @@ value = (
 );
 },
 {
-name = openTypeOS2Type;
+name = fsType;
 value = (
 );
 },
@@ -219,11 +215,11 @@ value = GOOG;
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = Axes;
@@ -239,7 +235,7 @@ name = "Variable Font Origin";
 value = "26C860F9-3A1D-441D-9B2D-5C5CFD026C88";
 }
 );
-date = "2020-02-19 16:22:56 +0000";
+date = "2020-10-22 16:03:19 +0000";
 designer = "Jonathan Pinhorn";
 familyName = Karla;
 featurePrefixes = (
@@ -436,7 +432,6 @@ verticalStems = (
 78
 );
 weightValue = 78;
-widthValue = 100;
 xHeight = 956;
 },
 {
@@ -39597,6 +39592,12 @@ unicode = 02DA;
 );
 instances = (
 {
+customParameters = (
+{
+name = "New Parameter";
+value = "New Value";
+}
+);
 interpolationWeight = 37;
 instanceInterpolations = {
 "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF" = 1;
