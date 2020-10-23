@@ -9,6 +9,5 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Florian Karsten <fonts@floriankarsten.com>
-Květoslav Bartoš <kvetoslav.bartos@gmail.com>
-Viviana Monsalve <viviana.monsalve.a@gmail.com>
+Jonathan Pinhorn <jonpinhorn.typedesign@gmail.com>
+Mirko Velimirovic <bghryct@gmail.com>
