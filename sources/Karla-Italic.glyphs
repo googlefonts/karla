@@ -240,6 +240,10 @@ Tag = wght;
 {
 name = "Variable Font Origin";
 value = "3D647E92-BB94-42FD-9C12-A678B6C1687F";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2020-02-19 16:24:49 +0000";

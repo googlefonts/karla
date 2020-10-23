@@ -247,6 +247,10 @@ value = "26C860F9-3A1D-441D-9B2D-5C5CFD026C88";
 {
 name = "Enforce Compatibility Check";
 value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2020-10-22 16:03:19 +0000";
