@@ -23,7 +23,8 @@ echo "POST PROCESSING VFs"
 postprocess_vf $VF_FILE
 postprocess_vf $VF_FILEit
 
-python3 gen_stat.py $VF_FILE
+python3 karla_stat_table.py $VF_FILE
+# python3 gen_stat.py $VF_FILE
 
 rm ../fonts/ttf/*gasp.ttf
 
