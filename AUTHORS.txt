@@ -6,4 +6,3 @@
 # Name or Organization <email address>
 
 Jonathan Pinhorn <jonpinhorn.typedesign@gmail.com>
-Mirko Velimirovic <bghryct@gmail.com>
